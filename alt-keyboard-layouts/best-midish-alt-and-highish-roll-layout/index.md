@@ -59,18 +59,19 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft); 
 3. Dumping data from keycraft into Excel and applying @ec0's ranking bands: A 9 rung English word "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" with sets of three of each banded into red, yellow, and green (depending on whether we want, for a metric, a minimum or a maximum).
 4. Bringing to bear insights from KLD; and
-5. Bringing to bear insights from AKL veterans in "Regard for inrolly2". 
+5. Bringing to bear insights from AKL veterans in "Regard for inrolly2".
 
-(4) and (5) have been useful to identify either: 
+(4) and (5) have been useful to identify either:
+
 * Patterns that aren't revealed in, or aren't obvious in, the keycraft or Excel output; and/or
 * Patterns bourne out by the experience of veterans in their use of layouts.
 
 "My analysis" is ahead of trialling the winning layouts myself. In "Regard for inrolly2" some mentioned the helpful https://keyboard-layout-try-out.pages.dev/, as a quick way to do a software-based trial of layouts. Because you use qwerty to emulate how a different layout would feel. However, in my having learnt Graphite (even to a low WPM) my qwerty usage is somewhat borked. So I'm intending to trial the winning layouts - ints and wave2 - at the hardware level on my Voyager (which is easy to do with that keyboard). I have in mind I'll learn each layout to 20 wpm - ints first, then wave2 - and decide on the ultimate winner at that point.
 
-Incidentally, that my qwerty usage is borked flags to me I may want to practice both a candidate/winning alt layout and qwerty at the same time. That is, to remain bi-layout competent. For I'll want to retain the ability to jump on qwerty for brief spouts of: 
+Incidentally, that my qwerty usage is borked flags to me I may want to practice both a candidate/winning alt layout and qwerty at the same time. That is, to remain bi-layout competent. For I'll want to retain the ability to jump on qwerty for brief spouts of:
 
 * Standard laptop usage (custom colstag keyboards and laptops are still a way off)
-* Mobile phone (software) keyboards 
+* Mobile phone (software) keyboards
 * Gaming. Gaming layouts are probably necessarily stuck with qwerty as a reference. I don't think it would be practical to remap a game's keyboard commands to a non qwerty layout. I intend to retain a separate traditional qwerty rowstag keyboard for gaming. (I have and endorse a Keychron K1 Pro)
 
 Anyway the point of my analysis has been to identify one or two layouts that will be worthy of trial.
