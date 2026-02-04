@@ -195,14 +195,24 @@ That is, I've changed the "rowstag" keyword to "colstag". And I've blanked out t
 
 Evidently in keycraft both matter. E.g. `keycraft view graphite graphite-cs-ns` will produce differences in layout presentation and calculation (@ironcollar could say more).
 
-<img src="KeycraftViewGraphiteGraphiteCSNS-2026-02-01-113443.png" alt="keycraft view graphite graphite-cs-ns" style="display:block; margin: 0 auto; width:80%;" />
+<a href="KeycraftViewGraphiteGraphiteCSNS-2026-02-01-113443.png">
+  <img
+    src="KeycraftViewGraphiteGraphiteCSNS-2026-02-01-113443.png"
+    alt="keycraft view graphite graphite-cs-ns"
+    style="display:block; margin: 0 auto; width:80%; cursor:zoom-in" />
+</a>
+
 
 ### Weights file customisation
 
 The keycraft `rank` command allows one to use a custom weights file. My weights file is on the right ...
 
-<img src="DefaultVJohnWeightsFile2026-02-01-122234.png" alt="Default V John's Weights file" style="display:block; margin: 0 auto; width:80%;" />
-
+<a href="DefaultVJohnWeightsFile2026-02-01-122234.png">
+  <img
+    src="DefaultVJohnWeightsFile2026-02-01-122234.png"
+    alt="Default V John's Weights file"
+    style="display:block; margin: 0 auto; width:80%; cursor:zoom-in" />
+</a>
 In summary, compared to the default, I penalise higher ALTs and promote 2RL-IN and 3RL-INs.
 
 My weights file differences are more shooting from the hip rather than being the result of some careful or deep meditation on the numbers. It's easy to change the rank order of layouts through small tweaks in the weights file. So the weights file is intended to produce a rank that situates us roughly; then from there look more closely at the metric scores for each layout. In other words I'm open to, as a notion before the start of analysis proper, disqualifying a layout that scores **better** than a layout I may keep.
@@ -219,7 +229,7 @@ I assume that corpus is suitable, therefore, for optimizing for general English 
 
 ## Analysis - the stats
 
-So with keycraft installed, the following PowerShell ...
+So with keycraft installed, metric acronym definitions to hand [keycraft readme > support metrics](https://github.com/rbscholtus/keycraft?tab=readme-ov-file#supported-metrics), the following PowerShell ...
 
 ```powershell
 Clear
