@@ -232,5 +232,11 @@ keycraft rank $LongList --weights-file john.txt --metrics extended --deltas grap
 
 ... yields ...
 
-![Keycraft rank 16 layouts](keycraft-rank-16-layouts.png)
+<a href="keycraft-rank-16-layouts.png">
+  <img 
+  	src="keycraft-rank-16-layouts.png" 
+  	width="100%" 
+  	alt="Keycraft rank 16 layouts" 
+  	style="cursor: zoom-in;" />
+</a>
 
