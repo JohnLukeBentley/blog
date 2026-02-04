@@ -1,9 +1,10 @@
-# What are the best midish-to-lowish Alt + highish Roll + other idiosyncratic criteria layouts?
+# What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-02 20:36 ...
+Under construction @ 2026-02-04 12:48 ...
 
-- [Intro](#intro)
-- [TL;DR:](#tldr)
+- [Criteria](#criteria)
+- [The winners](#the-winners)
+- [Runner up](#runner-up)
 - [Context](#context)
 - [Analysis - overview](#analysis---overview)
 - [Analysis - ways of speaking](#analysis---ways-of-speaking)
@@ -12,44 +13,82 @@ Under construction @ 2026-02-02 20:36 ...
   - [Weights file customisation](#weights-file-customisation)
   - [Corpus](#corpus)
 
-## Intro
+## Criteria
 
-What are the best midish-to-lowish Alt + highish Roll + other idiosyncratic criteria layouts?
+What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
+
 
 The other idiosyncratic criteria include:
 
-* Colstag layout. As colstag is an improvement on rowstag (and so I'm on a ZSA Voyager).
-* Excluding thumb alpha layouts. To keep the thumb keys for other things like backspace, tab, enter, space.
-* Must have bottom row symbol slots on at least ring and middle fingers. Because I'm set in my qwerty ways for "," and "." (but allow this could be on the left hand).
-* No magic key. As this would make the layout advanced (for me).
-* No repeat key. As I don't think I'd prefer this over just tapping the relevant key twice. 
+* **Colstag** layout. As colstag is an improvement on rowstag (and so I'm on a ZSA Voyager).
 
-## TL;DR:
+* Excluding thumb **alpha layouts**. To keep the thumb keys for other things like backspace, tab, enter, space.
 
-On my analysis, and answering my own question, the winning layouts are:
+* Must have **bottom row symbol slots** on at least ring and middle fingers. Because I'm set in my qwerty ways for "," and "." (but allow this could be on the left hand).
 
-* **ints-cs-ns** by Tanamar. A "3roll" layout.
-* **wave2-cs-ns** by eco. A "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout.
+* Optimising the (main) layer for **general English**. 
 
-Runner up:
+  I'm wanting to optimise my *keyboard* for typing both general English (prose, essays, etc.) and programming. The ideal corpus of words (excluding symbols) in programming will be different from idea corpus of words  (excluding symbols) in general English. E.g. The keyword "String" is going to appear more frequently in programming. However, the main speed and smoothness impediment in programming are the symbol keys. I'll be taking care of symbols largely with a separate symbols layer; with some high frequency symbols on the main layer (chiefly ".", and ","). And so, for the main layer (what this article is about) I'll:
 
-* sturdy-cs-ns by Oxey. Highish Roll; lowish redirect (STRD/SRTD/SRTC)
+  - Optimize for general English words over programming words; and
+  - In my analysis I'll remove symbols from the candidate layouts. Allowing that one's preferred symbols can be inserted in after analysis. And treating symbols optimisation as a separate consideration.
 
-"cs" is my abbreviation for "colstag", a column staggered keyboard.
+* No **magic key**. As this would make the layout advanced (for me).
+* No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; or this might be an advanced (for me). 
 
-"ns" is my abbreviation for "no symbols". That is, symbols where removed from the layout before that part of my analysis that used the analyser keycraft.
+## The winners
+
+My abbreviations:
+
+- "cs" for "colstag", a column staggered keyboard.
+- "ns" for "no symbols". That is, symbols where removed from the layout before that part of my analysis that used the analyser [keycraft](https://github.com/rbscholtus/keycraft).
+- "~" (tilde) means no key, not the tilde key. Following keycraft convention.
+
+On my analysis, and using the criteria, the winning layouts are:
+
+**ints-cs-ns** by Tanamar. A "3roll" layout.
+
+```
+f o u m j  q g d p ~
+h a e r x  v s t n i
+z ~ ~ l w  y c k b ~
+```
+
+(See the angle modded version with symbols at https://github.com/samuelxyz/layouts#ints)
+
+**wave2-cs-ns** by ec0. A "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout.
+
+```
+v l d m ~   z f o u j
+s r t c y   b n a e i
+q x k g w   p h ~ ~ ~
+```
+
+(See the angle modded version with symbols at [Keyboard Layout Document > Chapter 16: High roll-mid redirect layouts > ... > STRD / SRTD / SRTC](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73))
+
+## Runner up
+
+**sturdy-cs-ns** by Oxey. Highish Roll; lowish redirect (STRD/SRTD/SRTC)
+
+```
+v m l c p  x f o u j
+s t r d y  ~ n a e i
+z k q g w  b h ~ ~ ~
+```
+
+(See the colstag version with symbols at https://oxey.dev/sturdy/index.html)
 
 ## Context
 
-This is a follow up post to my [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332) which turned into a thread with good feedback on good alt layouts in general.
+This is a follow up post to my [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332) which turned into a thread with good feedback on good alternative layouts in general.
 
 I'll repeat my situation as I mentioned it there (with a different emphasis and some addition here):
 
-* I'm a new alt layout user.
+* I'm a new alternative layout user.
 * I've learnt Graphite to about 20wpm on my ZSA Voyager, a colstag (split) keyboard.
 * I've read @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2yb5bwiy1wa8#heading=h.rwlzs0nuaefi) (KLD)  ...
 * I've skimmed https://layouts.wiki/. In particular, https://layouts.wiki/guides/start/recommendations/
-* I had come to suspect I dislike highish Alternation and like high Rolls, especially 3rolls. Something Graphite lacks. That suspicion has been deepened from my analysis.
+* I had come to suspect I dislike highish alternation and like high rolls, especially 3rolls. Something Graphite lacks. That suspicion has been deepened from my analysis.
 
 ## Analysis - overview
 
@@ -57,14 +96,17 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 
 1. Taking a long list of candidate layouts to evaluate. Largely those flagged by anyone in "Regard for inrolly2" as worthy. This came to 13 layouts. In addition I keep around graphite and qwerty as reference layouts. So 15 layouts in total to compare.
 2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft); 
-3. Dumping data from keycraft into Excel and applying @ec0's ranking bands: A 9 rung English word "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" with sets of three of each banded into red, yellow, and green (depending on whether we want, for a metric, a minimum or a maximum).
+3. Dumping data from keycraft into Excel and applying @ec0's ranking bands for each metric: 
+   1. A nine rung English word "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max"; with
+   2. Three sets of three of each banded into red, yellow, and green (depending on whether we want, for a metric, a minimum or a maximum).
+
 4. Bringing to bear insights from KLD; and
 5. Bringing to bear insights from AKL veterans in "Regard for inrolly2".
 
 (4) and (5) have been useful to identify either:
 
 * Patterns that aren't revealed in, or aren't obvious in, the keycraft or Excel output; and/or
-* Patterns bourne out by the experience of veterans in their use of layouts.
+* Patterns borne out by the experience of veterans in their use of layouts.
 
 "My analysis" is ahead of trialling the winning layouts myself. In "Regard for inrolly2" some mentioned the helpful https://keyboard-layout-try-out.pages.dev/, as a quick way to do a software-based trial of layouts. Because you use qwerty to emulate how a different layout would feel. However, in my having learnt Graphite (even to a low WPM) my qwerty usage is somewhat borked. So I'm intending to trial the winning layouts - ints and wave2 - at the hardware level on my Voyager (which is easy to do with that keyboard). I have in mind I'll learn each layout to 20 wpm - ints first, then wave2 - and decide on the ultimate winner at that point.
 
@@ -90,8 +132,8 @@ Note from keycraft > Supported Metrics (previously linked) "Bigram, skipgram, an
 
 When I refer to metric **value** I'll either:
 
-* If using ec0's 9 rung English word "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a **very high** FSB"; or
-* Speak broadly to refer to the 3 rung band (within which there is the further division into three). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a **highish** FSB".
+* If using ec0's 9 rung English word "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a very high FSB"; or
+* Speak broadly to refer to the 3 rung band (within which there is the further division into three). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB".
 
 ## Analysis - keycraft customisation
 
@@ -125,13 +167,13 @@ I've changed to "rowstag" keyword to "colstag". And I've blanked out the symbols
 
 Evidently in keycraft both matter. E.g. `keycraft view graphite graphite-cs-ns` will produce differences in layout presentation and calculation (@ironcollar could say more).
 
-![keycraft view graphite graphite-cs-ns](KeycraftViewGraphiteGraphiteCSNS-2026-02-01-113443.png)
+<img src="KeycraftViewGraphiteGraphiteCSNS-2026-02-01-113443.png" alt="keycraft view graphite graphite-cs-ns" style="display:block; margin: 0 auto; width:80%;" />
 
 ### Weights file customisation
 
 The keycraft `rank` commands allows one to use a custom weights file. My weights file is on the right ...
 
-![Default V John's Weights file](DefaultVJohnWeightsFile2026-02-01-122234.png)
+<img src="DefaultVJohnWeightsFile2026-02-01-122234.png" alt="Default V John's Weights file" style="display:block; margin: 0 auto; width:80%;" />
 
 In summary, compared to the default, I penalise higher ALTs and promote 2RL-IN and 3RL-INs.
 
