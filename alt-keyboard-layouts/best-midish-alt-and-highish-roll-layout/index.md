@@ -22,7 +22,7 @@ What are the best layouts that are midish-to-lowish alternating, highish roll, a
 
 Answering that is part of trying to move away from a traditional row staggered qwerty keyboard, which is infamously awful to type on for historical reasons, to find a hardware, software, and layout solution to make typing feel smooth and joyful. Smooth and joyful above even speed improvements. While a more optimal hardware and software solution is likely to make one, with practice, type faster; the overarching goal of "smooth and joyful" is primary.
 
-This article comes out of discussion at the Discord Server [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL). 
+This article comes out of discussion at the Discord Server [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL).
 
 ## Hardware (and software)
 
@@ -39,9 +39,9 @@ On the hardware (and software) side I've settled on a [ZSA Voyager](https://www.
 * The keycaps are low profile. My personal preference.
 * The keycaps have shine-through RGB lighting.
 
-There are more radical recent keyboard designs - see Ben Vallack's demo of the Svalboard @ [I Tried the World's MOST COMFORTABLE Keyboard](https://www.youtube.com/watch?v=-Lz_FNoYHNM) - that are worth consideration. But from among the less radical programmable keyboards - where you have a plane (or two) of keys to hit with the pads of your fingers (and sides of your thumbs) - I commend the Voyager. 
+There are more radical recent keyboard designs - see Ben Vallack's demo of the Svalboard @ [I Tried the World's MOST COMFORTABLE Keyboard](https://www.youtube.com/watch?v=-Lz_FNoYHNM) - that are worth consideration. But from among the less radical programmable keyboards - where you have a plane (or two) of keys to hit with the pads of your fingers (and sides of your thumbs) - I commend the Voyager.
 
-More significantly, the rest of the article will focus on the issue of which main layer (a "layout") to use on a less radical programmable keyboard, on a Voyager, or Voyager-like keyboard. 
+More significantly, the rest of the article will focus on the issue of which main layer (a "layout") to use on a less radical programmable keyboard, on a Voyager, or Voyager-like keyboard.
 
 ## Criteria
 
@@ -55,7 +55,7 @@ The other idiosyncratic criteria include:
 
 * Must have **bottom row symbol slots** on at least ring and middle fingers. Because I'm set in my qwerty ways for "," and "." (but allow this could be on the left hand).
 
-* Optimising the (main) layer for **general English**. 
+* Optimising the (main) layer for **general English**.
 
   I'm wanting to optimise my *keyboard* for typing both general English (prose, essays, etc.) and programming. The ideal corpus of words (excluding symbols) in programming will be different from ideal corpus of words (excluding symbols) in general English. E.g. The keyword "String" is going to appear more frequently in programming. However, the main speed and smoothness impediment in programming are the symbol keys. I'll be taking care of symbols largely with a separate symbols layer; with some high frequency general English symbols on the main layer (chiefly ".", and ","). And so, for the main layer (what this article is about) I'll:
 
@@ -63,7 +63,7 @@ The other idiosyncratic criteria include:
   - In my analysis I'll remove symbols from the candidate layouts. Allowing that one's preferred symbols can be inserted in after analysis. And treating symbols optimisation as a separate consideration.
 
 * No **magic key**. As this would make the layout advanced (for me).
-* No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; or this might be an advanced (for me). 
+* No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; or this might be an advanced (for me).
 * Consistent with the above otherwise trying to find the layouts that score best on **the metrics overall**. Noting if you optimize for one metric that can penalize one or more other metrics.
 
 ## The winners
@@ -125,9 +125,9 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 "My analysis" here means:
 
 1. Taking a long list of candidate layouts to evaluate. Largely those flagged by anyone in "Regard for inrolly2" as worthy. This came to 14 layouts. In addition I keep around graphite and qwerty as reference layouts. So 16 layouts in total to compare.
-2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft); 
+2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft);
 3. Dumping data from keycraft into Excel and applying @ec0's ranking bands for each metric (more about that in the section below, [Analysis - ways of speaking](#analysis---ways-of-speaking).)
-   
+
 4. Bringing to bear insights from KLD; and
 5. Bringing to bear insights from AKL members in "Regard for inrolly2".
 
@@ -136,7 +136,7 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 * Patterns that aren't revealed in, or aren't obvious in, the keycraft or Excel output; and/or
 * Patterns borne out by the experience of veterans in their use of layouts.
 
-"My analysis" is ahead of trialling the winning layouts myself. 
+"My analysis" is ahead of trialling the winning layouts myself.
 
 In "Regard for inrolly2" some mentioned the helpful [https://keyboard-layout-try-out.pages.dev/]( https://keyboard-layout-try-out.pages.dev/), as a quick way to do a software-based trial of layouts. Because you use qwerty to emulate how a different layout would feel. However, in my having learnt Graphite (even to a low WPM) my qwerty usage is somewhat borked. So I'm intending to trial the winning layouts - ints and wave2 - at the hardware level on my Voyager (which is easy to do with that keyboard). I have in mind I'll learn each layout to 20 wpm - ints first, then wave2 - and decide on the ultimate winner at that point.
 
@@ -209,7 +209,7 @@ My weights file differences are more shooting from the hip rather than being the
 
 ### Corpus
 
-keycraft comes with three corpora. I use the default, "shai", corpus. 
+keycraft comes with three corpora. I use the default, "shai", corpus.
 
 @iSa tells us (in [AKL > Are there authoritative sources for the corpora: shai and akl?](https://discord.com/channels/807843650717483049/1467736504980869225/1467763160059482163))
 
@@ -233,10 +233,9 @@ keycraft rank $LongList --weights-file john.txt --metrics extended --deltas grap
 ... yields ...
 
 <a href="keycraft-rank-16-layouts.png">
-  <img 
-  	src="keycraft-rank-16-layouts.png" 
-  	width="100%" 
-  	alt="Keycraft rank 16 layouts" 
-  	style="cursor: zoom-in;" />
+  <img
+    src="keycraft-rank-16-layouts.png"
+    alt="Keycraft rank 16 layouts"
+    style="cursor: zoom-in;" />
 </a>
 
