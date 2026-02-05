@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-04 17:09 ...
+Under construction @ 2026-02-05 16:50 ...
 
 - [Intro](#intro)
 - [Hardware (and software)](#hardware-and-software)
@@ -8,13 +8,19 @@ Under construction @ 2026-02-04 17:09 ...
 - [The winners](#the-winners)
 - [Runner up](#runner-up)
 - [Context](#context)
-- [Analysis - overview](#analysis---overview)
-- [Analysis - ways of speaking](#analysis---ways-of-speaking)
-- [Analysis - keycraft customisation](#analysis---keycraft-customisation)
-  - [Layout customisation](#layout-customisation)
-  - [Weights file customisation](#weights-file-customisation)
-  - [Corpus](#corpus)
-- [Analysis - the stats](#analysis---the-stats)
+- [Analysis](#analysis)
+  - [Overview](#overview)
+  - [Ways of speaking](#ways-of-speaking)
+  - [Keycraft customisation](#keycraft-customisation)
+    - [Layout customisation](#layout-customisation)
+    - [Weights file customisation](#weights-file-customisation)
+    - [Corpus](#corpus)
+  - [The stats](#the-stats)
+  - [Reading the stats](#reading-the-stats)
+  - [Elimination round 1 - Qwerty is shit, but not all shit](#elimination-round-1---qwerty-is-shit-but-not-all-shit)
+    - [Qwerty is shit](#qwerty-is-shit)
+    - [... but not all shit](#-but-not-all-shit)
+  - [Elimination round 2 - Roll layouts](#elimination-round-2---roll-layouts)
 
 ## Intro
 
@@ -31,8 +37,8 @@ On the hardware (and software) side I've settled on a [ZSA Voyager](https://www.
 * The keys are swappable.
 * You can program multiple layers.
 * You can program multiple layers through:
-  * An easy to use GUI called [Orxy](https://configure.zsa.io/voyager/layouts/YRYG4/latest/0); or
-  * Directly customize the underlying (open source) QMK firmware where Orxy is limited; or
+  * An easy to use GUI called [Oryx](https://configure.zsa.io/voyager/layouts/YRYG4/latest/0); or
+  * Directly customize the underlying (open source) QMK firmware where Oryx is limited; or
   * Use both and merge the result. See [Using a DIY tool to add custom QMK features to your Oryx layout](https://blog.zsa.io/oryx-custom-qmk-features/) by Pierre Poulain.
 * It has 51 keys, more than many other programmable custom keyboards, that often go for fewer keys at 42 or 36 keys. As with the [Corne 42 LP](https://keebmaker.com/products/corne-low-profile?variant=47647202410795) or the [Corne 36 LP](https://keebmaker.com/products/corne-36-lp-keyboard).
 * It has four thumb keys rather than six thumb keys. Having, and designing for, only four thumb keys seems like the right "opinionated" (and therefore risky) design choice to make using one's thumbs simpler.
@@ -120,7 +126,9 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 * I've skimmed [https://layouts.wiki/](https://layouts.wiki/). In particular, [https://layouts.wiki/guides/start/recommendations/](https://layouts.wiki/guides/start/recommendations/)
 * I had come to suspect I dislike highish alternation and like high rolls, especially 3rolls. Something Graphite lacks. That suspicion has been deepened from my analysis.
 
-## Analysis - overview
+## Analysis
+
+### Overview
 
 "My analysis" here means:
 
@@ -148,7 +156,7 @@ Incidentally, that my qwerty usage is borked flags to me I may want to practice 
 
 Anyway the point of my analysis has been to identify one or two layouts that will be worthy of trial.
 
-## Analysis - ways of speaking
+### Ways of speaking
 
 I'll demo keycraft commands as I use them on Windows and Powershell. Which should remain obvious on how to use on different platforms (keycraft itself is multiplatform).
 
@@ -158,14 +166,14 @@ I'll refer to a [keycraft metric](https://github.com/rbscholtus/keycraft?tab=rea
 
 Note from keycraft > Supported Metrics (previously linked) "Bigram, skipgram, and trigram metrics follow the Keyboard Layouts Doc".
 
-When I refer to metric **value** I'll either:
+When I refer to metric **value** I'll either of what I'll call generically **@ec0 levels**, from KLD:
 
-* If using ec0's 9 rung English word "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a very high FSB"; or
-* Speak broadly to refer to the 3 rung band (within which there is the further division into three). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB".
+* If using **@ec0's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a very high FSB"; or
+* Speak broadly to refer to **3 band** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also reflects @ec0's 3 colour bands: green, yellow, red.
 
-## Analysis - keycraft customisation
+### Keycraft customisation
 
-### Layout customisation
+#### Layout customisation
 
 After installing keycraft (v0.5.0) I copy and modify the 16 layouts of interest.
 
@@ -203,7 +211,7 @@ Evidently in keycraft both matter. E.g. `keycraft view graphite graphite-cs-ns` 
 </a>
 
 
-### Weights file customisation
+#### Weights file customisation
 
 The keycraft `rank` command allows one to use a custom weights file. My weights file is on the right ...
 
@@ -217,7 +225,7 @@ In summary, compared to the default, I penalise higher ALTs and promote 2RL-IN a
 
 My weights file differences are more shooting from the hip rather than being the result of some careful or deep meditation on the numbers. It's easy to change the rank order of layouts through small tweaks in the weights file. So the weights file is intended to produce a rank that situates us roughly; then from there look more closely at the metric scores for each layout. In other words I'm open to, as a notion before the start of analysis proper, disqualifying a layout that scores **better** than a layout I may keep.
 
-### Corpus
+#### Corpus
 
 keycraft comes with three corpora. I use the default, "shai", corpus.
 
@@ -227,7 +235,7 @@ keycraft comes with three corpora. I use the default, "shai", corpus.
 
 I assume that corpus is suitable, therefore, for optimizing for general English (essays, articles, etc).
 
-## Analysis - the stats
+### The stats
 
 So with keycraft installed, metric acronym definitions to hand [keycraft readme > support metrics](https://github.com/rbscholtus/keycraft?tab=readme-ov-file#supported-metrics), the following PowerShell ...
 
@@ -248,4 +256,144 @@ keycraft rank $LongList --weights-file john.txt --metrics extended --deltas grap
     alt="Keycraft rank 16 layouts"
     style="cursor: zoom-in;" />
 </a>
+
+I then take the layout values and dump them into Excel in order to apply @ec0 Levels (the 9 English word rungs; and the 3 colour bands).
+
+<a href="keyboard-candidate-main-layouts-16Layouts.png">
+  <img
+    src="keyboard-candidate-main-layouts-16Layouts.png"
+    alt="Keyboard candidate main layouts - 16 layouts"
+    style="cursor: zoom-in;" />
+</a>
+
+I recommend you open this Excel image in a separate tab as it will be referred to frequently below.
+
+### Reading the stats
+
+A **metric cell's background** is:
+
+* Green when I wanted to highlight a metric that counts in the layout's favour; 
+* Red when I wanted to highlight a metric that counts in the layout's disfavour;
+
+There's no rigorous algorithm I followed when applying these cell backgrounds. These where applied often arbitrarily. For now I suggest ignore them.
+
+A **layout name's cell background** is:
+
+* Green for the winning layouts.
+* White (no background) for the runner up.
+* Red for disqualified layouts.
+
+**graphite-cs-ns** (colstag no symbols) has it's row background in grey as that's useful as a middling reference layout, for:
+
+* If you take highish alternation as desirable, most metrics score well, rolls excepted; and
+
+* It is among the top 2 recommendations for new users. E.g. at [https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite)
+
+  > If you are new to alt keyboard layouts, the [AKL Discord](https://discord.gg/a5yCn3BzBs) typically recommends starting with [Gallium](https://layouts.wiki/layouts/2023/gallium/) ... [Graphite](https://layouts.wiki/layouts/2023/graphite/) is also commonly recommended .... Gallium and Graphite are very similar to each other, but were developed independently ...
+
+And so note also in the keycraft output graphite-cs-ns is used as the reference layout against which other layouts are scored, and the deltas calculated.
+
+In the end I find it easier to compare layouts on an **absolute metric score basis**, and the @ec0 levels gives us a way to see these scores.
+
+I use **@ec0 level's** - the 9 rung English words, and the 3 colour bands - but **the values I use to define these are custom**. For each metric:
+
+* I've largely taken the lowest and highest values for the 16 layouts, excluding the outlier (often qwerty) as defining the min and max values; and
+* Occasionally I've gone beyond those min and max values as I did some analysis against the AKL corpus (which I won't show in this article as ultimately irrelevant).
+
+<a href="metric-upper-and-lower-bounds.png">
+  <img
+    src="metric-upper-and-lower-bounds.png"
+    alt="Metric upper and lower bounds"
+    style="cursor: zoom-in;" />
+</a>
+
+The metric **ICC** stands for "Index Centre Column". This is not ([as of writing](https://github.com/rbscholtus/keycraft/issues/4#issuecomment-3802703299)) a keycraft metric, but it is derived from the keycraft metrics as the sum of C5, and C6.
+
+Using `keycraft rank graphite-cs-ns --weights-file john.txt --metrics C5,C6` gives ...
+
+<a href="keycraft-rank-c5-c6.png">
+  <img src="keycraft-rank-c5-c6.png" alt="Keycraft rank C5 and C6" style="cursor: zoom-in; width:80%;" />
+</a>
+
+... which is also reflected in `view` output. E.g. `keycraft view graph
+ite-cs-ns` gives ...
+
+<a href="keycraft-view-graphite-cs-ns.png">
+  <img src="keycraft-view-graphite-cs-ns.png" alt="Keycraft view graphite-cs-ns" style="cursor: zoom-in; width:60%;" />
+</a>
+
+... observe in the "Hand" block the centre column values 3.3 and 2.8.
+
+A layout that has a higher centre index column use, where the index has to stretch off its home column, is worse than layouts with lower centre index column use, all other things being equal. 
+
+This metric is a companion to "POH", "Pinky Off Home" (although not calculated in an analogous way).
+
+### Elimination round 1 - Qwerty is shit, but not all shit
+
+@ec0 wrote in [Regard for inrolly2, 2025-11-21 06:35](https://discord.com/channels/807843650717483049/1439184823615885332/1441150096350908446) (in response to my suggestion qwerty stats would be good to include in KLD)
+
+> I don't see why the Qwerty stats matter. Still, if you want them I can look into that in another moment when I'm home ...
+
+#### Qwerty is shit
+
+If you've read this far you'll likely know that **qwerty is shit** from experience. But including the stats illuminates just how shit it is compared to other possible layouts. It has maximally undesirable values for several crucial metrics: SFB (Same Finger Bigrams), FSB (Full Scissor Bigrams), FSS (Full Scissor Skipgrams), RED (Redirects), and RLD (Row Load Deviation). 
+
+Moreover, those undesirable max values are sometimes significantly above the next highest value from the alternate layouts. 
+
+For example, ... 
+
+SFB (Same Finger Bigrams):
+
+* qwerty-ns Max of 6.42%
+* ints-cs-ns Mid high of 1.07%
+
+RLD (Row Load Deviation):
+
+* qwerty-ns Max of 84.51%
+* seht-drai-cs-ns Max of 32.44%
+
+Let's dive into RLD a bit more with `keycraft view qwerty-ns seht-drai-cs-ns graphite-cs-ns` ...
+
+<a href="keycraft-view-qwerty-seht-drai-graphite.png">
+  <img
+    src="keycraft-view-qwerty-seht-drai-graphite.png"
+    alt="Keycraft view qwerty-ns, shet-drai-cs-ns and graphite-cs-ns"
+    style="cursor: zoom-in; width:80%" />
+</a>
+
+... from the Row block we can see that qwerty-ns has an extremely highish top row usage at 51.6%. The next worse layout on RLD - seht-drai-cs-ns is better distributed between the rows, with a home row usage at 58.8% being much more desirable.
+
+From my use of graphite, coming from qwerty, one of the beautiful feelings was being on the home row much more (graphite-cs-ns has 65.3% home row usage).
+
+#### ... but not all shit
+
+However, I grew suspicious that graphite had drawbacks that qwerty didn't. And the stats bore that out ...
+
+<a href="graphite-v-qwerty.png">
+  <img
+    src="graphite-v-qwerty.png"
+    alt="Graphite V Qwerty"
+    style="cursor: zoom-in;" />
+</a>
+
+... namely, that:
+
+* qwerty had **lowish alternation** against graphite's highish alternation ... and that I find highish alternation a cognitive burden rather than a positive; and
+* qwerty has **highish 3RL** ("3-key Rolls total") ... and I like 3 rolls! Indeed against all the other candidate layouts only qwerty and those in the "3Rolls" class have highish 3 rolls.
+
+It's alleged ([https://layouts.wiki/guides/start/recommendations/](https://layouts.wiki/guides/start/recommendations/)) that:
+
+> There is no consensus on whether alternation or rolls is [sic] better; it is mainly up to personal preference.
+
+And @ec0 elaborates in the [KLD > 8.3. Balancing alternation & rolling](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.6r1v629nms0d#heading=h.1s5jijwq7omr):
+
+> Which to favor between rolling and alternation is subjective. It can be said that **alternation offers a more consistent typing experience, as it feels rhythmic and minimizes awkward sequences. Meanwhile, rolling has higher highs** (words that feel very smooth) **but lower lows** (long same hand sequences). [Emphasis original]
+
+I'm new to the Alt Keyboard Layout forum, so I've yet to have even the anecdotal evidence to back that sociological claim. That is, that are a significant number of users that like highish alternation and lowish rolls, on the one side of that preference fence.
+
+However, it's increasingly clear to me that I'll be after, ideally, lowish alternations and highish rolls. 
+
+ Anyway, despite those advantages going to qwerty, we boot qwerty out because it's so shit on other metrics.
+
+### Elimination round 2 - Roll layouts
 
