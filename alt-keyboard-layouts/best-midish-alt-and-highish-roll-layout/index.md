@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-06 14:02 ...
+Under construction @ 2026-02-08 21:15...
 
 - [Intro](#intro)
 - [Hardware (and software)](#hardware-and-software)
@@ -20,8 +20,11 @@ Under construction @ 2026-02-06 14:02 ...
   - [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
     - [Qwerty is shit](#qwerty-is-shit)
     - [... but not all shit](#-but-not-all-shit)
-  - [Elimination round 2 - Highish alternation layouts](#elimination-round-2---highish-alternation-layouts)
-  - [Elimination round 3 - For ad hoc reasons](#elimination-round-3---for-ad-hoc-reasons)
+  - [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
+  - [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+  - [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
+  - [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts)
+  - [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
 
 ## Intro
 
@@ -396,7 +399,7 @@ However, it's increasingly clear to me that I'll be after, ideally, lowish alter
 
  Anyway, despite those advantages going to qwerty, we boot qwerty out because it's so shit on other metrics.
 
-### Elimination round 2 - Highish alternation layouts
+### Elimination round 2 - eliminating highish alternation layouts
 
 We'll next eliminate from contention all the highish alternation layouts to move us toward our ideal. That will take out, from higher score to lower:
 
@@ -418,7 +421,7 @@ That leaves us with plenty of other layouts with midish to lowish alternation, t
     style="cursor: zoom-in;" />
 </a>
 
-### Elimination round 3 - For ad hoc reasons
+### Elimination round 3 - eliminating layouts for ad hoc reasons
 
 We can next eliminate some layouts for ad hoc reasons. We'll start from the lower scoring layouts:
 
@@ -478,13 +481,122 @@ At the end of our elimination round we have a shortlist ...
     style="cursor: zoom-in;" />
 </a>
 
+### Winner round 1 - ints-cs-ns
 
+From the remaining layouts there is one in a distinctly different class: ints-cs-ns, in the "3rolls" class. And it is closest to our ideal in having midish-to-lowish alternating, highish roll. It has:
 
+* Very low ALT;
+* Max 2RL;
+* High 3RL and;
+* As a bonus Max 3RL-IN.
 
+It also scores well on other key metrics: 
 
+* Lowish Full Scissors (FSB, FSB)
+* Very low ICC.
 
+So, far that's excellent.
 
+It does very badly on other metrics ...
 
+* Very high HSB (worse than qwerty)
+* Max RED; and
+* Very High RED-WEAK (worse than qwerty).
+
+@ec0 notes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.1 Rolls & redirects](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.7hju1u63u30)
+
+> Generally, rolls are considered a comfortable hand pattern while redirects are seen as worse. So, **a desirable aspect would be having high rolls, yet low redirects.**
+>
+> The issue is that increasing the former will do the same to the later.
+
+We are seeing that bear out with ints-cs-ns. The highish rolls (2RL and 3RL) have resulted in highish redirects.
+
+However, despite this outcome of highish redirects (and very high HSB), I'll keep this layout as a winner worth trialling. As it's: otherwise excellent (against the criteria); and uniquely in this "3rolls" class.
+
+During the trial I'll be asking myself:
+
+* Are redirects all that bad? and/or
+* Given I endured a similar level of redirects during qwerty, will it just feel vastly superior (and superior to graphite)?
+
+### Elimination round 4 - the battle of the highish roll; lowish redirect layouts
+
+Let's pit the two "Highish Roll; lowish redirect" layouts against each other, **flame-cs-ns V sturdy-cs-ns**.
+
+flame-cs-ns significantly beats sturdy-cs-ns on: FSB (Full Scissor Bigram), LSS (Lateral Stretch Skipgram), HSS  (Half Scissor Skipgram), FLD (Finger Load Deviation), POH (Pinky Off Home)
+
+sturdy-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram). Very low (0.73%) to mid (0.97%). Either way still way short of qwerty's max at 6.42%.
+
+So far the advantage goes to flame-cs-ns.
+
+As mentioned above in [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+
+> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index ... it's not by much. 
+
+So the advantage is still retained overall by **flame-cs-ns**.
+
+### Elimination round 5 - wave2-cs-ns V flame-cs-ns
+
+wave2-cs-ns:
+<pre><samp>v l d m ~  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+q x k g w  p h ~ ~ ~
+</samp></pre>
+
+flame-cs-ns:
+
+<pre><samp>x p d w g  j f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ~
+<span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
+</samp></pre>
+#### Issue 1: general stats advantage
+
+wave2-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram), HSB (Half Scissor Bigram), HSS (Half Scissor Skipgram), 3RL-SFB (3-key Rolls — Same Finger Bigram)
+
+flame-cs-ns significantly beats on: 
+
+* FLD (Finger Load Deviation), and 
+* Particularly POH (Pinky Off Home). Min (0.48%) V Mid low (2.08%).
+
+Broadly, this would then seem to be contest of which one prefers:
+
+* Better SFB, and half scissors then **wave2**;
+* Better POH, then **flame**
+
+Let's suspend that contest and see if there are other factors.
+
+#### Issue 2: SFB index concentration
+
+As mentioned above in [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+
+> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index [here compared to wave2-cs-ns] ... it's not by much. 
+
+A slight advantage to **wave2-cs-ns**.
+
+#### Issue 3: the trigram "str"
+
+@novaph indicates ([AKL > Regard for inrolly2 > at 2025-11-15 21:47](https://discord.com/channels/807843650717483049/1439184823615885332/1439205146834767983)) they use sturdy and that
+
+> it's very similar to wave2, main difference is that the `r` and `t` columns are swapped
+>
+> `str` is a nice roll on sturdy but one of the worst redirects on wave2
+
+We can see that in keycraft stats. With `keycraft analyse wave2-cs-ns flame-cs-ns sturdy-cs-ns --trigram-rows 100` ...
+
+<a href="keycraft-analyse-str-3rl-red.png"><img src="keycraft-analyse-str-3rl-red.png" alt="Keycraft 'str' trigram for wave2 flame sturdy, 3RL and RED" style="cursor:zoom-in" /></a>
+
+... "str" is a (desirable) roll under flame and sturdy but a weak redirect under wave2. Moreover, it is the eighth most popular redirect under wave2.  
+
+However, it's the ninety-ninth most popular trigram, under shai (the general English corpus) ...
+
+<a href="keycraft-analyse-str-trigrams.png"><img src="keycraft-analyse-str-trigrams.png" alt="Keycraft 'str' trigram for wave2 flame sturdy, general trigram frequency" style="display:block; margin: 0 auto; cursor:zoom-in" /></a>
+
+So, as a general English matter it wouldn't seem worth especially weighting "str".
+
+As a programmer "str" will appear more frequently in virtue of the data type "string". As previously mentioned, optimising for programming is going to benefit far more through optimising a symbols layer (and the interplay of the few symbols on the main layer and the symbols layer). 
+
+So there is the slight advantage to **flame-cs-ns** (and sturdy-cs-ns) over wave2-cs-ns. But overall I don't think "str" is worth taking into account, in the contest between  flame (or sturdy) and wave2. But if it bugged you particularly I'd recommend using flame over sturdy for the advantages mentioned in [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts) .
+
+#### The choice
 
 
 
