@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 16:41 ...
+Under construction @ 2026-02-10 16:44 ...
 
 ## Table of contents
 
@@ -844,7 +844,7 @@ wave2-cs-ns-swap-z
 q x k g w  p h ~ ~ ~
 </samp></pre>
       </td>
-      <td>
+      <td style="border: 4px solid;">
 wave2-cs-jbs-swap-z
 <pre><samp>v l d m z  - f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
