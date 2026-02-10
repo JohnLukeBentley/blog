@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 16:53 ...
+Under construction @ 2026-02-10 17:06 ...
 
 ## Table of contents
 
@@ -12,27 +12,27 @@ Under construction @ 2026-02-10 16:53 ...
 * [Runners up](#runners-up)
 * [Context](#context)
 * [Analysis](#analysis)
-  * [Overview](#overview)
-  * [Ways of speaking](#ways-of-speaking)
-  * [Keycraft customisation](#keycraft-customisation)
-    * [Layout customisation](#layout-customisation)
-    * [Weights file customisation](#weights-file-customisation)
-    * [Corpus](#corpus)
-  * [The stats](#the-stats)
-  * [Reading the stats](#reading-the-stats)
-  * [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
-    * [Qwerty is shit](#qwerty-is-shit)
-    * [... but not all shit](#-but-not-all-shit)
-  * [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
-  * [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
-  * [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
-  * [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts)
-  * [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
-    * [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
-    * [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
-    * [Issue 3: general stats advantage](#issue-3-general-stats-advantage)
-    * [Modifying the layouts](#modifying-the-layouts)
-  * [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
+	* [Overview](#overview)
+	* [Ways of speaking](#ways-of-speaking)
+	* [Keycraft customisation](#keycraft-customisation)
+		* [Layout customisation](#layout-customisation)
+		* [Weights file customisation](#weights-file-customisation)
+		* [Corpus](#corpus)
+	* [The stats](#the-stats)
+	* [Reading the stats](#reading-the-stats)
+	* [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
+		* [Qwerty is shit](#qwerty-is-shit)
+		* [... but not all shit](#-but-not-all-shit)
+	* [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
+	* [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+	* [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
+	* [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts)
+	* [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
+		* [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
+		* [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
+		* [Issue 3: general stats advantage](#issue-3-general-stats-advantage)
+		* [Modifying the layouts](#modifying-the-layouts)
+	* [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
 * [Wrapping up](#wrapping-up)
 
 ## Intro
@@ -711,28 +711,20 @@ So **ints-cs-ns-swap-q** is our winner of the ints-cs-ns variants.
 Therefore our winners, in to-trial order, are:
 
 1. **ints-cs-ns-swap-q**
-
-    <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
-    <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-    z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~</samp></pre>
-
-1. **flame-cs-ns-swap-jq**
-
-    <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
-    <span style="color: red; font-weight: bold;">r n t s</span> y  ~ l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-    z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~</samp></pre>
+2. **flame-cs-ns-swap-jq**
 
 ... and our runner up (to trial if need be) is:
 
-1. wave2-cs-ns-swap-z
-
-    <pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
-    <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-    q x k g w  p h ~ ~ ~</samp></pre>
+3. wave2-cs-ns-swap-z
 
 And our final shortlist in Excel is now ...
 
-...
+<a href="final-shortlist.png">
+  <img
+    src="final-shortlist.png"
+    alt="Final shortlist"
+    style="cursor: zoom-in;" />
+</a>
 
 <table style="text-align: left;">
   <caption>
@@ -752,7 +744,7 @@ And our final shortlist in Excel is now ...
       <th>
          1. ints (winner)<br />
       </th>
-      <td>
+      <td style="white-space: nowrap;">
         <a href="https://github.com/samuelxyz/layouts#ints">ints by Tanamr (rowstag anglemod)</a>
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  q g d p ,
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
@@ -849,6 +841,7 @@ q x k g w  p h . , \
     </tr>
   </tbody>
 </table>
+
 
 The end.
 
