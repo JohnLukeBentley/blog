@@ -1,30 +1,39 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-08 21:15...
+Under construction @ 2026-02-10 13:24 ...
 
-- [Intro](#intro)
-- [Hardware (and software)](#hardware-and-software)
-- [Criteria](#criteria)
-- [The winners](#the-winners)
-- [Runners up](#runners-up)
-- [Context](#context)
-- [Analysis](#analysis)
-  - [Overview](#overview)
-  - [Ways of speaking](#ways-of-speaking)
-  - [Keycraft customisation](#keycraft-customisation)
-    - [Layout customisation](#layout-customisation)
-    - [Weights file customisation](#weights-file-customisation)
-    - [Corpus](#corpus)
-  - [The stats](#the-stats)
-  - [Reading the stats](#reading-the-stats)
-  - [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
-    - [Qwerty is shit](#qwerty-is-shit)
-    - [... but not all shit](#-but-not-all-shit)
-  - [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
-  - [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
-  - [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
-  - [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts)
-  - [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
+## Table of contents
+
+* [Table of contents](#table-of-contents)
+* [Intro](#intro)
+* [Hardware (and software)](#hardware-and-software)
+* [Criteria](#criteria)
+* [The winners](#the-winners)
+* [Runners up](#runners-up)
+* [Context](#context)
+* [Analysis](#analysis)
+  * [Overview](#overview)
+  * [Ways of speaking](#ways-of-speaking)
+  * [Keycraft customisation](#keycraft-customisation)
+    * [Layout customisation](#layout-customisation)
+    * [Weights file customisation](#weights-file-customisation)
+    * [Corpus](#corpus)
+  * [The stats](#the-stats)
+  * [Reading the stats](#reading-the-stats)
+  * [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
+    * [Qwerty is shit](#qwerty-is-shit)
+    * [... but not all shit](#-but-not-all-shit)
+  * [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
+  * [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+  * [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
+  * [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts)
+  * [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
+    * [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
+    * [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
+    * [Issue 3: general stats advantage](#issue-3-general-stats-advantage)
+    * [Modifying the layouts](#modifying-the-layouts)
+  * [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
+* [Wrapping up](#wrapping-up)
 
 ## Intro
 
@@ -80,13 +89,13 @@ The other idiosyncratic criteria include:
 
 My abbreviations:
 
-- "cs" for "colstag", a column staggered keyboard.
-- "ns" for "no symbols". That is, symbols where removed from the layout before that part of my analysis that used the analyser [keycraft](https://github.com/rbscholtus/keycraft).
-- "~" (tilde) means no key, not the tilde key. Following keycraft convention.
+* "cs" for "colstag", a column staggered keyboard.
+* "ns" for "no symbols". That is, symbols where removed from the layout before that part of my analysis that used the analyser [keycraft](https://github.com/rbscholtus/keycraft).
+* "~" (tilde) means no key, not the tilde key. Following keycraft convention.
 
 On my analysis, and using the criteria, the winning layouts are:
 
-**ints-cs-ns** by Tanamar. A "3roll" layout.
+**ints-cs-ns** by Tanamr. A "3roll" layout.
 
 ```
 f o u m j  q g d p ~
@@ -98,7 +107,7 @@ z ~ ~ l w  y c k b ~
 
 **wave2-cs-ns** by ec0. A "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout.
 
-```
+```text
 v l d m ~   z f o u j
 s r t c y   b n a e i
 q x k g w   p h ~ ~ ~
@@ -110,7 +119,7 @@ q x k g w   p h ~ ~ ~
 
 **sturdy-cs-ns** by Oxey. Highish Roll; lowish redirect (STRD/SRTD/SRTC)
 
-```
+```text
 v m l c p  x f o u j
 s t r d y  ~ n a e i
 z k q g w  b h ~ ~ ~
@@ -183,7 +192,7 @@ After installing keycraft (v0.5.0) I copy and modify the 16 layouts of interest.
 
 From example data\layouts\graphite.klf ...
 
-```
+```text
 # https://github.com/rdavison/graphite-layout
 rowstag
 ~ b l d w z  ' f o u j ;
@@ -194,7 +203,7 @@ rowstag
 
 ... is copied as data\layouts\graphite-cs-ns.klf ...
 
-```
+```text
 # https://github.com/rdavison/graphite-layout
 colstag
 ~ b l d w z  ~ f o u j ~
@@ -276,7 +285,7 @@ I recommend you open this Excel image in a separate tab as it will be referred t
 
 A **metric cell's background** is:
 
-* Green when I wanted to highlight a metric that counts in the layout's favour; 
+* Green when I wanted to highlight a metric that counts in the layout's favour;
 * Red when I wanted to highlight a metric that counts in the layout's disfavour;
 
 There's no rigorous algorithm I followed when applying these cell backgrounds. These where applied often arbitrarily. For now I suggest ignore them.
@@ -328,7 +337,7 @@ ite-cs-ns` gives ...
 
 ... observe in the "Hand" block the centre column values 3.3 and 2.8.
 
-A layout that has a higher centre index column use, where the index has to stretch off its home column, is worse than layouts with lower centre index column use, all other things being equal. 
+A layout that has a higher centre index column use, where the index has to stretch off its home column, is worse than layouts with lower centre index column use, all other things being equal.
 
 This metric is a companion to "POH", "Pinky Off Home" (although not calculated in an analogous way).
 
@@ -340,11 +349,11 @@ This metric is a companion to "POH", "Pinky Off Home" (although not calculated i
 
 #### Qwerty is shit
 
-If you've read this far you'll likely know that **qwerty is shit** from experience. But including the stats illuminates just how shit it is compared to other possible layouts. It has maximally undesirable values for several crucial metrics: SFB (Same Finger Bigrams), FSB (Full Scissor Bigrams), FSS (Full Scissor Skipgrams), RED (Redirects), and RLD (Row Load Deviation). 
+If you've read this far you'll likely know that **qwerty is shit** from experience. But including the stats illuminates just how shit it is compared to other possible layouts. It has maximally undesirable values for several crucial metrics: SFB (Same Finger Bigrams), FSB (Full Scissor Bigrams), FSS (Full Scissor Skipgrams), RED (Redirects), and RLD (Row Load Deviation).
 
-Moreover, those undesirable max values are sometimes significantly above the next highest value from the alternate layouts. 
+Moreover, those undesirable max values are sometimes significantly above the next highest value from the alternate layouts.
 
-For example, ... 
+For example, ...
 
 SFB (Same Finger Bigrams):
 
@@ -395,7 +404,7 @@ And @ec0 elaborates in the [KLD > 8.3. Balancing alternation & rolling](https://
 
 I'm new to the Alt Keyboard Layout forum, so I've yet to have even the anecdotal evidence to back that sociological claim. That is, that are a significant number of users that like highish alternation and lowish rolls, on the one side of that preference fence.
 
-However, it's increasingly clear to me that I'll be after, ideally, lowish alternations and highish rolls. 
+However, it's increasingly clear to me that I'll be after, ideally, lowish alternations and highish rolls.
 
  Anyway, despite those advantages going to qwerty, we boot qwerty out because it's so shit on other metrics.
 
@@ -403,7 +412,7 @@ However, it's increasingly clear to me that I'll be after, ideally, lowish alter
 
 We'll next eliminate from contention all the highish alternation layouts to move us toward our ideal. That will take out, from higher score to lower:
 
-*  graphite-cs-ns
+* graphite-cs-ns
 * trendy-cs-ns
 * gallium-v3-cs-ns
 * flour-colstag-ns
@@ -433,7 +442,7 @@ We can next eliminate some layouts for ad hoc reasons. We'll start from the lowe
 
 @ec0 observes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.3.2. HM or HML + vowels > NRTS / RNTS](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0)
 
-> The drawback of these layouts is that there are a lot of SFBs concentrated on the left index (**SC, YS, WS, GS…**) leading to high movement on that finger. 
+> The drawback of these layouts is that there are a lot of SFBs concentrated on the left index (**SC, YS, WS, GS…**) leading to high movement on that finger.
 
 This can be identified with `keycraft analyse flame-cs-ns wave2-cs-ns ints-cs-ns sturdy-cs-ns`. An orange mark identifies a SFB concentrated on the index.
 
@@ -464,7 +473,7 @@ This is particular because the Voyager, desirably in my view, has only 4 thumb k
 Nevertheless some readers may which to precisely jump on this layout, given it is best scoring overall. That is, so long as they don't mind:
 
 * The thumb alpha (e);
-* Max LSB; and 
+* Max LSB; and
 * Max ICC
 
 At the end of our elimination round we have a shortlist ...
@@ -490,7 +499,7 @@ From the remaining layouts there is one in a distinctly different class: ints-cs
 * High 3RL and;
 * As a bonus Max 3RL-IN.
 
-It also scores well on other key metrics: 
+It also scores well on other key metrics:
 
 * Lowish Full Scissors (FSB, FSB)
 * Very low ICC.
@@ -530,7 +539,7 @@ So far the advantage goes to flame-cs-ns.
 
 As mentioned above in [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
 
-> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index ... it's not by much. 
+> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index ... it's not by much.
 
 So the advantage is still retained overall by **flame-cs-ns**.
 
@@ -548,31 +557,17 @@ flame-cs-ns:
 <span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
 </samp></pre>
-#### Issue 1: general stats advantage
+We'll dive into some niche considerations before looking at any general stats advantage between the two.
 
-wave2-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram), HSB (Half Scissor Bigram), HSS (Half Scissor Skipgram), 3RL-SFB (3-key Rolls — Same Finger Bigram)
-
-flame-cs-ns significantly beats on: 
-
-* FLD (Finger Load Deviation), and 
-* Particularly POH (Pinky Off Home). Min (0.48%) V Mid low (2.08%).
-
-Broadly, this would then seem to be contest of which one prefers:
-
-* Better SFB, and half scissors then **wave2**;
-* Better POH, then **flame**
-
-Let's suspend that contest and see if there are other factors.
-
-#### Issue 2: SFB index concentration
+#### Issue 1: SFB index concentration
 
 As mentioned above in [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
 
-> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index [here compared to wave2-cs-ns] ... it's not by much. 
+> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index [here compared to wave2-cs-ns] ... it's not by much.
 
 A slight advantage to **wave2-cs-ns**.
 
-#### Issue 3: the trigram "str"
+#### Issue 2: the trigram "str"
 
 @novaph indicates ([AKL > Regard for inrolly2 > at 2025-11-15 21:47](https://discord.com/channels/807843650717483049/1439184823615885332/1439205146834767983)) they use sturdy and that
 
@@ -584,7 +579,7 @@ We can see that in keycraft stats. With `keycraft analyse wave2-cs-ns flame-cs-n
 
 <a href="keycraft-analyse-str-3rl-red.png"><img src="keycraft-analyse-str-3rl-red.png" alt="Keycraft 'str' trigram for wave2 flame sturdy, 3RL and RED" style="cursor:zoom-in" /></a>
 
-... "str" is a (desirable) roll under flame and sturdy but a weak redirect under wave2. Moreover, it is the eighth most popular redirect under wave2.  
+... "str" is a (desirable) roll under flame and sturdy but a weak redirect under wave2. Moreover, it is the eighth most popular redirect under wave2.
 
 However, it's the ninety-ninth most popular trigram, under shai (the general English corpus) ...
 
@@ -592,11 +587,155 @@ However, it's the ninety-ninth most popular trigram, under shai (the general Eng
 
 So, as a general English matter it wouldn't seem worth especially weighting "str".
 
-As a programmer "str" will appear more frequently in virtue of the data type "string". As previously mentioned, optimising for programming is going to benefit far more through optimising a symbols layer (and the interplay of the few symbols on the main layer and the symbols layer). 
+As a programmer "str" will appear more frequently in virtue of the data type "string". As previously mentioned, optimising for programming is going to benefit far more through optimising a symbols layer (and the interplay of the few symbols on the main layer and the symbols layer).
 
 So there is the slight advantage to **flame-cs-ns** (and sturdy-cs-ns) over wave2-cs-ns. But overall I don't think "str" is worth taking into account, in the contest between  flame (or sturdy) and wave2. But if it bugged you particularly I'd recommend using flame over sturdy for the advantages mentioned in [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts) .
 
-#### The choice
+#### Issue 3: general stats advantage
+
+None of the above seem decision, we let's look at the general stats advantage ...
+
+<a href="wave2-v-flame.png">
+  <img
+    src="wave2-v-flame.png"
+    alt="wave2 V flame"
+    style="cursor: zoom-in;" />
+</a>
+
+wave2-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram), HSB (Half Scissor Bigram)
+
+flame-cs-ns significantly beats wave2-cs-ns on
+
+* FLD (Finger Load Deviation), and
+* Particularly POH (Pinky Off Home). Min (0.48%) V Mid low (2.08%).
+
+flame-cs-ns also beats wave2-cs-ns on RED, but only by one rung. So not significantly beating.
+
+Broadly, this would then seem to come down to preference. If you want better:
+
+* SFB and HSB then **wave2-cs-ns**;
+* FLD and POH then **flame-cs-ns**.
+
+It's a knife edge decision. 
+
+#### Modifying the layouts
+
+Let's have a crack at modifying the layouts for better symbols positioning. Idiosyncratically I have a high use of the minus/hyphen "-" symbol as I: use it often in markdown lists; and in Cascading Style Sheets (CSS). So I'll want this on the main layer in a handy position. For me that's on the right hand, and on an index. 
+
+Modding wave2-cs-ns and flame-cs-ns yields the following variants that aren't significantly different from their base layout ...
+
+<a href="wave2-flame-variants.png">
+  <img
+    src="wave2-flame-variants.png"
+    alt="wave2 adn flame variants"
+    style="cursor: zoom-in;" />
+</a>
+
+Darker orange and dark green cell backgrounds identify worse stats among their variants. However, none of these differences are significant. The scores in brackets represent their keycraft scores when running
+
+```powershell
+$LongList = @("flour-colstag-ns","flame-cs-ns","flame-cs-ns-swap-j","flame-cs-ns-swap-jq","gallium-v2-cs-ns","graphite-cs-ns","heyyou-cs-ns",
+    "hieamtsrn-cs-ns","inrolly2-cs-ns","ints-cs-ns","rain-cs-ns-cmini","seht-drai-cs-ns","sturde-cs-ns",
+    "sturdy-cs-ns","stronk-cs-ns","trendy-cs-ns","wave2-cs-ns","wave2-cs-ns-swap-z","wave2-cs-ns-swap-zb","wave2-cs-ns-swap-ztr","qwerty-ns")
+keycraft rank $LongList --weights-file john.txt --metrics extended --deltas flame-cs-ns
+```
+
+<a href="wave2-and-flame-variants-keycraft.png">
+  <img
+    src="wave2-and-flame-variants-keycraft.png"
+    alt="Wave2 and flame variants, keycraft output"
+    style="cursor: zoom-in;" />
+</a>
+
+wave2-cs-ns-swap-ztr was an attempt to see if I could have a wave2 variant with a right (stretched) index symbol on the home row. But that scored very badly and so is disqualified.
+
+The variants that best match my idiosyncratic wish for a right index symbol slot are therefore:
+
+**wave2-cs-ns-swap-z**:
+
+<pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+q x k g w  p h ~ ~ ~
+</samp></pre>
+
+**flame-cs-ns-swap-jq**:
+
+<pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<span style="color: red; font-weight: bold;">r n t s</span> y  ~ l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
+</samp></pre>
+And, on the knife edge I'll come down on the side of flame-cs-ns-swap-jq as the winner, for the symbol slot being on the home row (probably for '-' but maybe for '*'). It's going to see higher frequency use than 'q'.
+
+And so I'll be seeing what better FLD and POH feels like at the cost of SFB and HSB.
+
+So **flame-cs-ns-swap-jq** as the winner, and given it's a close call, wave2-cs-ns-swap-z will be the runner up.
+
+### Can ints-cs-ns be improved?
+
+**ints-cs-ns**:
+
+<pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  q g d p ~
+<span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
+z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
+</samp></pre>
+Swapping in a right hand (stretched) index symbol slot for q gives us
+
+**ints-cs-ns-swap-q**:
+
+<pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
+<span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
+z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
+</samp></pre>
+And that's causes a negligible change in the stats.
+
+<a href="keycraft-ints-variants.png">
+  <img
+    src="keycraft-ints-variants.png"
+    alt="Keycraft ints variants"
+    style="cursor: zoom-in;" />
+</a>
+
+Excel comparison ...
+
+<a href="ints-variants.png">
+  <img
+    src="ints-variants.png"
+    alt="ints variants in Excel"
+    style="cursor: zoom-in;" />
+</a>
+
+So **ints-cs-ns-swap-q** is our winner of the ints-cs-ns variants.
+
+## Wrapping up
+
+Therefore our winners, in to-trial, order are:
+
+1. **ints-cs-ns-swap-q**
+
+    <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
+    <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
+    z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
+    </samp></pre>
+
+1. **flame-cs-ns-swap-jq**
+
+    <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+    <span style="color: red; font-weight: bold;">r n t s</span> y  ~ l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+    z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
+    </samp></pre>
+
+... and our runner up (to trial if need be) is:
+
+3. wave2-cs-ns-swap-z
+
+    <pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+    <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+    q x k g w  p h ~ ~ ~
+    </samp></pre>
+
+And our final shortlist in Excel is now ...
+
+
 
 
 
