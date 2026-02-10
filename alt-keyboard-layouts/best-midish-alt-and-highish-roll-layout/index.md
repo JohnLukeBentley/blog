@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 16:37 ...
+Under construction @ 2026-02-10 16:41 ...
 
 ## Table of contents
 
@@ -774,7 +774,7 @@ z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
 z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
 </samp></pre>
       </td>
-      <td style="background: #eafff1">
+      <td style="border: 4px solid rgb(18, 183, 18);">
         ints-cs-jbs-swap-q
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  - g d p q
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
@@ -809,11 +809,11 @@ flame-cs-ns-swap-jq
 z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
 </samp></pre>
       </td>
-      <td style="background: #eafff1">
+      <td style="border: 4px solid rgb(18, 183, 18);">
 flame-cs-jbs-swap-jq
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">r n t s</span> y  - l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> . , \
+z b k <span style="color: rgb(13, 130,  247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> . , \
 </samp></pre>
       </td>
     </tr>
