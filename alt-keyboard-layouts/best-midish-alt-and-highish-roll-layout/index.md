@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 16:52 ...
+Under construction @ 2026-02-10 16:53 ...
 
 ## Table of contents
 
@@ -742,9 +742,9 @@ And our final shortlist in Excel is now ...
     <tr>
       <th>Layouts</th>
       <th>Original</th>
-      <th>Un-angle mod, Colstag, no symbols, without swaps</th>
-      <th>Un-angle mod, Colstag, no symbols, with swaps</th>
-      <th>Un-angle mod, Colstag, John Bentley symbols, with swaps</th>
+      <th>Un-angle mod, colstag, no symbols, without swaps</th>
+      <th>Un-angle mod, colstag, no symbols, with swaps</th>
+      <th>Un-angle mod, colstag, John Bentley symbols, with swaps</th>
     </tr>
   </thead>
   <tbody>
