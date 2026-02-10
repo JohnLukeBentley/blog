@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 16:30 ...
+Under construction @ 2026-02-10 16:37 ...
 
 ## Table of contents
 
@@ -734,7 +734,7 @@ And our final shortlist in Excel is now ...
 
 ...
 
-<table>
+<table style="text-align: left;">
   <caption>
     Winning layouts and runner up.
   </caption>
@@ -789,7 +789,7 @@ z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
       </th>
       <td>
         flame  by Oxey (anglemod)<br />
-
+        
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ,
 <span style="color: red; font-weight: bold;">r n t s</span> y  j l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .
@@ -824,7 +824,7 @@ z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <
       </th>
       <td>
         wave2 by ec0 (anglemod)<br />
-
+        
 <pre><samp>v l d m '  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 x k g w q  p h . " ,
