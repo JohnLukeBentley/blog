@@ -1,19 +1,19 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-11 17:12 ...
+Under construction @ 2026-02-11 22:07 ...
 
 ## Table of contents
 
 * [Table of contents](#table-of-contents)
+* [Summary](#summary)
 * [Intro](#intro)
 * [Hardware (and software)](#hardware-and-software)
 * [Criteria](#criteria)
-* [The winners](#the-winners)
-* [Runners up](#runners-up)
 * [Context](#context)
 * [Analysis](#analysis)
   * [Overview](#overview)
   * [Ways of speaking](#ways-of-speaking)
+  * [Layout key](#layout-key)
   * [Keycraft customisation](#keycraft-customisation)
     * [Layout customisation](#layout-customisation)
     * [Weights file customisation](#weights-file-customisation)
@@ -38,13 +38,82 @@ Under construction @ 2026-02-11 17:12 ...
     * [Symbols layer](#symbols-layer)
     * [Final Result](#final-result)
 
-## Intro
+## Summary
 
 What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Answering that is part of trying to move away from a traditional row staggered qwerty keyboard, which is infamously awful to type on for historical reasons, to find a hardware, software, and layout solution to make typing feel smooth and joyful. Smooth and joyful above even speed improvements. While a more optimal hardware and software solution is likely to make one, with practice, type faster; the overarching goal of "smooth and joyful" is primary.
+I'm answering this on the basis of analysis largely using ...
 
-This article comes out of discussion at the Discord Server [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL).
+* @ironcollar's analyser [keycraft](https://github.com/rbscholtus/keycraft); and 
+* @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2yb5bwiy1wa8#heading=h.rwlzs0nuaefi) (KLD). 
+
+... both excellent pieces of work.
+
+The aim is to select some winners to do a practical trial on.
+
+I'm on a colstag programmable [ZSA Voyager](https://www.zsa.io/voyager) keyboard. Coming from a lifetime of qwerty, I've recently learnt graphite to 20wpm. But I find graphite unsatisfying. Hence the search for the right layouts to trial.
+
+In the layout diagrams, following keycraft conventions, `~` (tilde) means no key, not the tilde key. It could be assigned to any symbol or command; or left unused.
+
+On my analysis, and using the criteria, the winning layouts, in to-trial order, are:
+
+**ints-cs-jbs-swap-q**. Based on [ints by Tanamr](https://github.com/samuelxyz/layouts#ints) (a "3rolls" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (q).
+
+```text
+f o u m j  ~ g d p q
+h a e r x  v s t n i
+z . , l w  y c k b ~
+```
+
+**flame-cs-jbs-swap-j**. Based on [flame by Oxey](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0) (a "Highish Roll; lowish redirect (NRTS / RNTS)" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (j).
+
+```text
+x p d w g  ~ f o u j
+r n t s y  q l a e i
+z b k c v  m h , . ~
+```
+
+The runner up, a backup to trial if the above don't click, is:
+
+**wave2-cs-jbs-swap-z**. Based on [ wave2 by ec0 (anglemod)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73) (a "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (z).
+
+```text
+v l d m z  ~ f o u j
+s r t c y  b n a e i
+q x k g w  p h , . ~
+```
+
+I have chosen these layouts having mind they'll work with a symbols layer of mine - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (stable link), built for:
+
+* English prose (particularly for the frequent symbols: `"'?:;`); and
+* The following programming (or "markup", or "style", or "scripting") languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
+
+I'm fairly happy with that symbols layer, although it is subject to further tweaking, along with the symbols I'll have on the main layer. Although I think it likely, on the main layer, `,` and `.` will remain where they are.
+
+I evaluated (variants of) the following layouts (in alphabetical order):
+
+1. flame
+2. flour-colstag
+3. gallium-v2
+4. heyyou
+5. hieamtsrn
+6. inrolly2
+7. ints
+8. rain (as found via cmini)
+9. seht-drai
+10. stronk
+11. sturde
+12. sturdy
+13. trendy
+14. wave2
+
+I used graphite and qwerty to compare. 
+
+Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0) , @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar ,@bhulik. 
+
+## Intro
+
+Answering that is part of trying to move away from a traditional row staggered qwerty keyboard, which is infamously awful to type on for historical reasons, to find a hardware, software, and layout solution to make typing feel smooth and joyful. Smooth and joyful above even speed improvements. While a more optimal hardware and software solution is likely to make one, with practice, type faster; the overarching goal of "smooth and joyful" is primary.
 
 ## Hardware (and software)
 
@@ -85,48 +154,11 @@ The other idiosyncratic criteria include:
   - In my analysis I'll remove symbols from the candidate layouts. Allowing that one's preferred symbols can be inserted in after analysis. And treating symbols optimisation as a separate consideration.
 
 * No **magic key**. As this would make the layout advanced (for me).
+
 * No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; or this might be an advanced (for me).
+
 * Consistent with the above otherwise trying to find the layouts that score best on **the metrics overall**. Noting if you optimize for one metric that can penalize one or more other metrics.
 
-## The winners and runner up
-
-My abbreviations for layout naming:
-
-* "cs" for "colstag", a column staggered keyboard.
-* "ns" for "no symbols". That is, symbols where removed from the layout before that part of my analysis that used the analyser [keycraft](https://github.com/rbscholtus/keycraft).
-* "jbs" for "John Bentley symbols". That is, symbols I define on the layout, which are likely different from symbols defined on the original layout.
-* "~" (tilde) means no key, not the tilde key. Following keycraft convention.
-
-In the layout diagram, following conventions from @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2yb5bwiy1wa8#heading=h.rwlzs0nuaefi) (KLD) :
-
-* The topmost vowels are coloured <span style="color: rgb(18, 183, 18); font-weight: bold;">green and bolded</span>, 
-* The topmost consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>,
-* The "c" character is coloured <span style="color: rgb(13, 130, 247); font-weight: bold;">blue and bolded</span>
-
-On my analysis, and using the criteria, the winning layouts, in to-trial order, are:
-
-**ints-cs-jbs-swap-q**. Based on [ints by Tanamr](https://github.com/samuelxyz/layouts#ints), but un-angle mod, colstag, John Bentley symbols, with a swap.
-
-<pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
-<span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
-</samp></pre>
-
-**flame-cs-jbs-swap-j**. Based on [flame by Oxey](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0), but un-angle mod, colstag, John Bentley symbols, with a swap.
-
-<pre><samp>x p d w g  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
-<span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-z b k <span style="color: rgb(13, 130,  247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> , . ~
-</samp></pre>
-
-The runner up, a backup to trial if the above don't click, is:
-
-**wave2-cs-jbs-swap-z**. Based on [ wave2 by ec0 (anglemod)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73), but un-angle mod, colstag, John Bentley symbols, with a swap.
-
-<pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
-<span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-q x k g w  p h , . ~
-</samp></pre>
 
 ## Context
 
@@ -184,6 +216,21 @@ When I refer to metric **value** I'll either of what I'll call generically **@ec
 
 * If using **@ec0's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a very high FSB"; or
 * Speak broadly to refer to **3 band** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also reflects @ec0's 3 colour bands: green, yellow, red.
+
+### Layout key
+
+My abbreviations for layout naming:
+
+* "cs" for "colstag", a column staggered keyboard.
+* "ns" for "no symbols". That is, symbols where removed from the layout before that part of my analysis that used the analyser [keycraft](https://github.com/rbscholtus/keycraft).
+* "jbs" for "John Bentley symbols". That is, symbols I define on the layout, which are likely different from symbols defined on the original layout.
+
+In the layout diagram, following conventions from @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2yb5bwiy1wa8#heading=h.rwlzs0nuaefi) (KLD) :
+
+* "~" (tilde) means no key, not the tilde key. Following keycraft convention.
+* The topmost vowels are coloured <span style="color: rgb(18, 183, 18); font-weight: bold;">green and bolded</span>.
+* The topmost consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>.
+* The "c" character is coloured <span style="color: rgb(13, 130, 247); font-weight: bold;">blue and bolded</span>.
 
 ### Keycraft customisation
 
@@ -635,9 +682,10 @@ Modding wave2-cs-ns and flame-cs-ns yields the following variants that aren't si
 Darker orange and dark green cell backgrounds identify worse stats among their variants. However, none of these differences are significant. The scores in brackets represent their keycraft scores when running
 
 ```powershell
-$LongList = @("flour-colstag-ns","flame-cs-ns","flame-cs-ns-swap-j","flame-cs-ns-swap-jq","gallium-v2-cs-ns","graphite-cs-ns","heyyou-cs-ns",
-    "hieamtsrn-cs-ns","inrolly2-cs-ns","ints-cs-ns","rain-cs-ns-cmini","seht-drai-cs-ns","sturde-cs-ns",
-    "sturdy-cs-ns","stronk-cs-ns","trendy-cs-ns","wave2-cs-ns","wave2-cs-ns-swap-z","wave2-cs-ns-swap-zb","wave2-cs-ns-swap-ztr","qwerty-ns")
+$LongList = @("flour-colstag-ns","flame-cs-ns","flame-cs-ns-swap-j","flame-cs-ns-swap-jq","gallium-v2-cs-ns",
+ "graphite-cs-ns","heyyou-cs-ns", "hieamtsrn-cs-ns","inrolly2-cs-ns","ints-cs-ns","rain-cs-ns-cmini",
+ "seht-drai-cs-ns","sturde-cs-ns","sturdy-cs-ns","stronk-cs-ns","trendy-cs-ns",
+ "wave2-cs-ns","wave2-cs-ns-swap-z","wave2-cs-ns-swap-zb","wave2-cs-ns-swap-ztr","qwerty-ns")
 keycraft rank $LongList --weights-file john.txt --metrics extended --deltas flame-cs-ns
 ```
 
@@ -741,7 +789,7 @@ I have a symbols layer - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbol
 ... that I'm fairly happy with. It's the result of optimising for a combination of:
 
 * English prose (particularly for the frequent symbols: `"'?:;`); and
-* The following programming languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
+* The following programming (or "markup", or "style", or "scripting") languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
 
 (Above all else having `<`,`/`,`>` on home row ring, middle, and index fingers is very comfortable for (x)html work.)
 
@@ -786,9 +834,9 @@ So I'll define, for the main layer "John Bentley symbols":
     <tr>
       <th>Layouts</th>
       <th>Original</th>
-      <th>Un-angle mod, colstag, no symbols, without swaps</th>
-      <th>Un-angle mod, colstag, no symbols, with swaps</th>
-      <th>Un-angle mod, colstag, John Bentley symbols, with swaps</th>
+      <th>Un-angle modded, colstag, no symbols, without swaps</th>
+      <th>Un-angle modded, colstag, no symbols, with swaps</th>
+      <th>Un-angle modded, colstag, John Bentley symbols, with swaps</th>
     </tr>
   </thead>
   <tbody>
@@ -893,6 +941,3 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
-
-The end.
-
