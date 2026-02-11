@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-11 22:07 ...
+Under construction @ 2026-02-12 09:36 ...
 
 ## Table of contents
 
@@ -18,6 +18,7 @@ Under construction @ 2026-02-11 22:07 ...
     * [Layout customisation](#layout-customisation)
     * [Weights file customisation](#weights-file-customisation)
     * [Corpus](#corpus)
+  * [The candidate layouts](#the-candidate-layouts)
   * [The stats](#the-stats)
   * [Reading the stats](#reading-the-stats)
   * [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
@@ -34,9 +35,9 @@ Under construction @ 2026-02-11 22:07 ...
     * [Modifying the layouts](#modifying-the-layouts)
   * [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
 * [Wrapping up](#wrapping-up)
-    * [Review](#review)
-    * [Symbols layer](#symbols-layer)
-    * [Final Result](#final-result)
+  * [Review](#review)
+  * [Symbols layer](#symbols-layer)
+  * [Final Result](#final-result)
 
 ## Summary
 
@@ -75,7 +76,7 @@ z b k c v  m h , . ~
 
 The runner up, a backup to trial if the above don't click, is:
 
-**wave2-cs-jbs-swap-z**. Based on [ wave2 by ec0 (anglemod)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73) (a "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (z).
+**wave2-cs-jbs-swap-z**. Based on [ wave2 by ec0](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73) (a "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (z).
 
 ```text
 v l d m z  ~ f o u j
@@ -90,26 +91,7 @@ I have chosen these layouts having mind they'll work with a symbols layer of min
 
 I'm fairly happy with that symbols layer, although it is subject to further tweaking, along with the symbols I'll have on the main layer. Although I think it likely, on the main layer, `,` and `.` will remain where they are.
 
-I evaluated (variants of) the following layouts (in alphabetical order):
-
-1. flame
-2. flour-colstag
-3. gallium-v2
-4. heyyou
-5. hieamtsrn
-6. inrolly2
-7. ints
-8. rain (as found via cmini)
-9. seht-drai
-10. stronk
-11. sturde
-12. sturdy
-13. trendy
-14. wave2
-
-I used graphite and qwerty to compare. 
-
-Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0) , @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar ,@bhulik. 
+I evaluated variants of 14 candidate layouts. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0) , @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar ,@bhulik. 
 
 ## Intro
 
@@ -225,12 +207,13 @@ My abbreviations for layout naming:
 * "ns" for "no symbols". That is, symbols where removed from the layout before that part of my analysis that used the analyser [keycraft](https://github.com/rbscholtus/keycraft).
 * "jbs" for "John Bentley symbols". That is, symbols I define on the layout, which are likely different from symbols defined on the original layout.
 
-In the layout diagram, following conventions from @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2yb5bwiy1wa8#heading=h.rwlzs0nuaefi) (KLD) :
+In the layout diagram, following conventions (more or less) from @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2yb5bwiy1wa8#heading=h.rwlzs0nuaefi) (KLD):
 
-* "~" (tilde) means no key, not the tilde key. Following keycraft convention.
 * The topmost vowels are coloured <span style="color: rgb(18, 183, 18); font-weight: bold;">green and bolded</span>.
 * The topmost consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>.
 * The "c" character is coloured <span style="color: rgb(13, 130, 247); font-weight: bold;">blue and bolded</span>.
+
+In the layout diagram "~" (tilde) means no key, not the tilde key. Following keycraft convention.
 
 ### Keycraft customisation
 
@@ -295,6 +278,27 @@ keycraft comes with three corpora. I use the default, "shai", corpus.
 > Shai: The default most analysers use, very large sample size corpus generated by cleaning the internet basically.
 
 I assume that corpus is suitable, therefore, for optimizing for general English (essays, articles, etc).
+
+### The candidate layouts
+
+I evaluated (variants of) the following layouts (in alphabetical order):
+
+1. flame
+2. flour-colstag
+3. gallium-v2
+4. heyyou
+5. hieamtsrn
+6. inrolly2
+7. ints
+8. rain (as found via cmini)
+9. seht-drai
+10. stronk
+11. sturde
+12. sturdy
+13. trendy
+14. wave2
+
+I used graphite and qwerty to compare. 
 
 ### The stats
 
@@ -755,7 +759,7 @@ So **ints-cs-ns-swap-q** is our winner of the ints-cs-ns variants.
 
 ## Wrapping up
 
-#### Review
+### Review
 
 Therefore our winners, in to-trial order, are:
 
@@ -775,7 +779,7 @@ And our shortlist of no symbol layouts in Excel is now ...
     style="cursor: zoom-in;" />
 </a>
 
-#### Symbols layer
+### Symbols layer
 
 I have a symbols layer - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (stable link) ...
 
@@ -824,7 +828,7 @@ So I'll define, for the main layer "John Bentley symbols":
 * `,.` as mandatory and on the middle and ring fingers respectively;
 * Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I can place on a main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer, find alternate uses for these "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh). 
 
-#### Final Result
+### Final Result
 
 <table style="text-align: left;">
   <caption>
