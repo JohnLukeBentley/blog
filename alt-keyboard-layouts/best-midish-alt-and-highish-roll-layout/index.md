@@ -1,6 +1,6 @@
 # Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-17 11:53 ...
+Under construction @ 2026-02-17 11:56 ...
 
 ## Table of contents
 
@@ -897,7 +897,7 @@ z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
     </tr>
     <tr>
       <th>
-        1. flame (winner)
+        2. flame (winner)
       </th>
       <td>
         <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0">flame  by Oxey (anglemod)</a>
@@ -930,7 +930,7 @@ z b k <span style="color: rgb(13, 130,  247); font-weight: bold;">c</span> v  m 
     </tr>
     <tr>
       <th>
-        1. wave2 (runner up)
+        3. wave2 (runner up)
       </th>
       <td>
         <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73">wave2 by ec0 (anglemod)</a>
