@@ -1,6 +1,6 @@
 # Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-17 13:37 ...
+Under construction @ 2026-02-19 11:31 ...
 
 ## Table of contents
 
@@ -86,12 +86,12 @@ q x k g w  p h , . ~
 
 I have chosen these layouts having mind they'll work with a symbols layer of mine - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (stable link), built for:
 
-* English prose (particularly for the most frequent symbols after `.` and `,`: `-'":?!/;`; and
+* General English - prose, essays, etc. - particularly for the most frequent symbols after `.` and `,`: `-'":?!/;`; and
 * The following programming (or "markup", or "style", or "scripting") languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
 
-I'm fairly happy with that symbols layer, although it is subject to further tweaking, along with the symbols I'll have on the main layer. Although I think it likely, on the main layer, `.` and `,` will remain where they are.
+I'm fairly happy with that symbols layer. Although it is subject to further tweaking, along with the symbols I'll have on the main layer. However, I think it likely on the main layer `.` and `,` will remain where they are.
 
-I evaluated variants of 14 candidate layouts. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0), @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar ,@bhulik.
+I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0), @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar ,@bhulik.
 
 ## Intro
 
@@ -164,7 +164,7 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft);
 3. Dumping data from keycraft into Excel and applying @ec0's ranking levels for each metric (more about that in the section below, [Analysis - ways of speaking](#ways-of-speaking)).
 
-4. Bringing to bear insights from KLD; and
+4. Bringing to bear insights from the KLD; and
 5. Bringing to bear insights from AKL members in "Regard for inrolly2".
 
 (4) and (5) have been useful to identify either:
@@ -220,7 +220,7 @@ Note from keycraft > readme > Supported Metrics:
 When I refer to metric **value** I'll use either of what I'll call generically **@ec0 levels**, from KLD:
 
 * If using **@ec0's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a *very high* FSB"; or
-* Speak broadly to refer to one of **3 bands** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also reflects @ec0's 3 colour bands: green, yellow, red (green being the most desirable for a metric).
+* Speak broadly to refer to one of **3 bands** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also might reflect @ec0's 3 colour bands: green, yellow, red (green being the most desirable for a metric).
 
 ### Layout key
 
@@ -238,7 +238,7 @@ In the layout diagram, following conventions (more or less) from @ec0's [Keyboar
 * The most frequent consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>.
 * The "c" character is coloured <span style="color: rgb(13, 130, 247); font-weight: bold;">blue and bolded</span>.
 
-In the layout diagram "~" (tilde) means no key, not the tilde key. Following keycraft convention.
+In the layout diagram `~` means no key, not the tilde key. Following keycraft convention.
 
 ### Keycraft customisation
 
@@ -270,7 +270,7 @@ colstag
 
 That is, I've changed the "rowstag" keyword to "colstag". And I've blanked out the symbols with tildes ("~").
 
-Evidently in keycraft both matter. E.g. `keycraft view graphite graphite-cs-ns` will produce differences in layout presentation and calculation (@ironcollar could say more).
+Evidently in keycraft both matter. E.g. `keycraft view graphite graphite-cs-ns` will produce differences in layout presentation and metric calculation (@ironcollar could say more).
 
 <a href="KeycraftViewGraphiteGraphiteCSNS-2026-02-01-113443.png">
   <img
@@ -291,13 +291,13 @@ The keycraft `rank` command allows one to use a custom weights file. My weights 
 </a>
 In summary, compared to the default, I penalise higher ALTs and promote 2RL-IN and 3RL-INs.
 
-My weights file differences are more shooting from the hip rather than being the result of some careful or deep meditation on the numbers. It's easy to change the rank order of layouts through small tweaks in the weights file. So the weights file is intended to produce a rank that situates us roughly; then from there look more closely at the metric scores for each layout. In other words I'm open to, as a notion before the start of analysis proper, disqualifying a layout that scores **better** than a layout I may keep.
+My weights file differences are more shooting from the hip rather than being the result of some careful or deep meditation on the numbers. It's easy to change the rank order of layouts through small tweaks in the weights file. So the weights file is intended to produce a rank that situates us roughly; then from there look more closely at the metric scores for each layout. In other words in principle I could disqualify a layout that scores **better**, based on a weights file, than a layout I may decide to keep.
 
 #### Corpus
 
 keycraft comes with three corpora. I use the default, "shai", corpus.
 
-@iSa tells us (in [AKL > Are there authoritative sources for the corpora: shai and akl?](https://discord.com/channels/807843650717483049/1467736504980869225/1467763160059482163))
+@iSa tells us (in [AKL > Are there authoritative sources for the corpora: shai and akl? > 2026-02-02, 17:06](https://discord.com/channels/807843650717483049/1467736504980869225/1467763160059482163))
 
 > Shai: The default most analysers use, very large sample size corpus generated by cleaning the internet basically.
 
@@ -305,7 +305,7 @@ I assume that corpus is suitable, therefore, for optimizing for general English 
 
 ### The stats
 
-So with keycraft installed, metric acronym definitions to hand @ [keycraft > readme > Supported Metrics](https://github.com/rbscholtus/keycraft?tab=readme-ov-file#supported-metrics), the following PowerShell ...
+So with keycraft installed, keycraft layouts copied and modded, and metric acronym definitions to hand @ [keycraft > readme > Supported Metrics](https://github.com/rbscholtus/keycraft?tab=readme-ov-file#supported-metrics); the following PowerShell ...
 
 ```powershell
 Clear
@@ -347,11 +347,11 @@ There's no rigorous algorithm I followed when applying these cell backgrounds. T
 
 A metric cell's background is:
 
-* Darker green or darker yellow for slightly worse metrics for similar scoring layout variants of the same type. That is, I have variants of ints, wave2, and flame and apply cell background colours for these.
+* Darker green or darker yellow for slightly worse metrics for similar scoring layout variants of the same type. That is, I have variants of ints, wave2, and flame; and apply cell background colours for these.
 
-Likewise, for now, I suggest ignore this background colour.
+Likewise, for now, I suggest ignore these background colours.
 
-**graphite-cs-ns** (colstag no symbols) has it's row background in grey as that's useful as a middling reference layout, for:
+**graphite-cs-ns** (colstag no symbols) has its row background in grey as that's useful as a middling reference layout, for:
 
 * It has highish alternation (and some may see that as desirable);
 
@@ -379,7 +379,7 @@ I use **@ec0 levels** - the 9 rung English words, and the 3 colour bands - but *
 
 The metric **ICC** stands for "Index Centre Column". This is not, as of writing, a keycraft metric, but it is derived from the keycraft metrics as the sum of C5, and C6.
 
-Using `keycraft rank graphite-cs-ns --weights-file john.txt --metrics C5,C6` gives ...
+Using, for example, `keycraft rank graphite-cs-ns --weights-file john.txt --metrics C5,C6` gives ...
 
 <a href="keycraft-rank-c5-c6.png">
   <img src="keycraft-rank-c5-c6.png" alt="Keycraft rank C5 and C6" style="cursor: zoom-in; width:80%;" />
@@ -439,9 +439,14 @@ Let's dive into RLD (Row Load Deviation) a bit more with `keycraft view qwerty-n
     style="cursor: zoom-in; width:80%" />
 </a>
 
-... from the Row block we can see that qwerty-ns has an extremely highish top row usage at 51.6%. The next worse layout on RLD - seht-drai-cs-ns - is better distributed between the rows, with a home row usage at 58.8% being much more desirable.
+... from the Row block we can see that qwerty-ns has an extremely highish top row usage at 51.6%. The next worse layout on RLD - seht-drai-cs-ns - is better distributed between the rows, with a top row usage at 29.2% being much more desirable.
 
-From my use of graphite, coming from qwerty, one of the beautiful feelings was being on the home row much more (graphite-cs-ns has 65.3% home row usage).
+Home row usage is: 
+
+* An appalling 32.7% on qwerty-ns; but
+* Comparatively superior and similar at 58.8% on seht-drai-cs-ns, and 65.3% on graphite-cs-ns.
+
+From my use of graphite, coming from qwerty, one of the beautiful feelings was being on the home row much more.
 
 #### ... but not all shit
 
@@ -459,7 +464,7 @@ However, I grew suspicious that graphite had drawbacks that qwerty didn't. And t
 * qwerty had **lowish alternation** against graphite's highish alternation ... and that I find highish alternation a cognitive burden rather than a positive; and
 * qwerty has **highish 3RL** (3-key Rolls total) ... and I like 3 rolls! Indeed against all the other candidate layouts only qwerty and those in the "3Rolls" class have highish 3 rolls.
 
-It's alleged ([https://layouts.wiki/guides/start/recommendations/](https://layouts.wiki/guides/start/recommendations/)) that:
+It's alleged - [https://layouts.wiki/guides/start/recommendations/ > Sturdy](https://layouts.wiki/guides/start/recommendations/#sturdy) - that:
 
 > There is no consensus on whether alternation or rolls is [sic] better; it is mainly up to personal preference.
 
@@ -471,7 +476,7 @@ I'm new to the Alt Keyboard Layout forum, so I've yet to have even the anecdotal
 
 However, it's increasingly clear to me that I'll be after, ideally, lowish alternations and highish rolls.
 
- Anyway, despite those advantages going to qwerty, we boot qwerty out because it's so shit on other metrics.
+Anyway, despite those advantages going to qwerty, we eliminate qwerty out because it's so shit on other metrics.
 
 ### Elimination round 2 - eliminating highish alternation layouts
 
@@ -486,7 +491,7 @@ We'll next eliminate from contention all the highish alternation layouts to move
 * hieamstrn-cs-ns
 * inrolly2-cs-ns.
 
-That leaves us with plenty of other layouts with midish to lowish alternation, the score well overall. Although qwerty-ns and graphite-cs-ns are eliminated from contention, we'll leave them displayed for reference:
+That leaves us with plenty of other layouts with midish to lowish alternation, that score well overall. Although qwerty-ns and graphite-cs-ns are eliminated from contention, we'll leave them displayed for reference:
 
 <a href="midish-to-lowish-alternation-layouts.png">
   <img
@@ -509,7 +514,7 @@ We can next eliminate some layouts for ad hoc reasons. We'll start from the lowe
 
 > The drawback of these layouts is that there are a lot of SFBs concentrated on the left index (**SC, YS, WS, GS…**) leading to high movement on that finger.
 
-This can be identified with `keycraft analyse flame-cs-ns wave2-cs-ns ints-cs-ns sturdy-cs-ns`. An orange mark identifies a SFB concentrated on the index.
+This can be identified with `keycraft analyse flame-cs-ns wave2-cs-ns ints-cs-ns sturdy-cs-ns`. An orange mark identifies a SFB concentrated on the index (left or right).
 
 <a href="layouts-with-sfb-index-concentration.png">
   <img
@@ -600,13 +605,13 @@ flame-cs-ns significantly beats sturdy-cs-ns on: FSB (Full Scissor Bigram), LSS 
 
 sturdy-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram). Very low (0.73%) to mid (0.97%), respectively. Either way still way short of qwerty's max at 6.42%.
 
-So far the advantage goes to flame-cs-ns.
-
 As I mentioned above in [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
 
 > Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index [in this case against sturdy-cs-ns] ... it's not by much.
 
-So the advantage is still retained overall by **flame-cs-ns**.
+I don't think that sturdy-cs-ns' superior SFB score and superior SFB index concentration performance overriding. 
+
+Therefore, taking into account the metrics overall, the advantage is retained by **flame-cs-ns**.
 
 ### Elimination round 5 - wave2-cs-ns V flame-cs-ns
 
@@ -812,7 +817,7 @@ I have a symbols layer - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbol
 
 I'm fairly happy with this symbols layer. It's the result of optimising for a combination of:
 
-* English prose (particularly for the most frequent symbols after `.` and `,`: `-'":?!/;`; and
+* General English - prose, essays, etc. - particularly for the most frequent symbols after `.` and `,`: `-'":?!/;`; and
 * The following programming (or "markup", or "style", or "scripting") languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
 
 Above all else having `<`,`/`,`>` on home row ring, middle, and index fingers is very comfortable for (x)html work.
@@ -844,7 +849,7 @@ Less so with hyphen, `-`, but that also works well on the symbols layer, on the 
 So I'll define, for the main layer "John Bentley symbols":
 
 * `.,` as mandatory and on the ring and middle fingers respectively; and
-* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I can place on a main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer, find alternate uses for these "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
+* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I can place on a main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
 
 ### Final Result
 
