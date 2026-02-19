@@ -1,6 +1,6 @@
 # Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-19 11:31 ...
+Under construction @ 2026-02-19 17:05 ...
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Under construction @ 2026-02-19 11:31 ...
   * [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
   * [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
   * [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
-  * [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts)
+  * [Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts---flame-cs-ns-v-sturdy-cs-ns)
   * [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
     * [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
     * [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
@@ -54,7 +54,7 @@ The aim is to select some winners to do a practical trial on.
 
 I'm on a colstag programmable [ZSA Voyager](https://www.zsa.io/voyager) keyboard. Coming from a lifetime of qwerty, I've recently learnt graphite to 20wpm. But I find graphite unsatisfying. Hence the search for the right layouts to trial.
 
-In the layout diagrams, following keycraft conventions, `~` (tilde) means no key, not the tilde key. It could be assigned to any symbol or command; or left unused.
+In the layout diagrams, following keycraft conventions, `~` means no key, not the tilde key. It could be assigned to any symbol or command; or left unused.
 
 On my analysis, and using the criteria (yet to be detailed), the winning layouts, in to-trial order, are:
 
@@ -66,13 +66,15 @@ h a e r x  v s t n i
 z . , l w  y c k b ~
 ```
 
-**flame-cs-jbs-swap-j**. Based on [flame by Oxey](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0) (a "Highish Roll; lowish redirect (NRTS / RNTS)" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (j).
+**flame-cs-jbs-swap-j**. Based on [flame by Oxey](https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf) (a "Highish Roll; lowish redirect (NRTS / RNTS)" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (j).
 
 ```text
 x p d w g  ~ f o u j
 r n t s y  q l a e i
 z b k c v  m h , . ~
 ```
+
+[flame-keycraft](https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf) and [flame-cmini](https://discord.com/channels/807843650717483049/1063291226243207268/1473851644927279124) (cmini is a AKL analyser app for calling up an overview of stats in discord posts) are consistent with each other; [flame-kld](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0) - flame as presented in KLD - differs from both in having `q` and `j` swapped. Presumably, flame-kld is an earlier version from which flame-keycraft/flame-cmini evolved. Anyway, I'm using flame-keycraft as my "original" version from which I derive variants.
 
 The runner up, a backup to trial if the above don't click, is:
 
@@ -91,6 +93,8 @@ I have chosen these layouts having mind they'll work with a symbols layer of min
 
 I'm fairly happy with that symbols layer. Although it is subject to further tweaking, along with the symbols I'll have on the main layer. However, I think it likely on the main layer `.` and `,` will remain where they are.
 
+For a table of the above layouts, and their derivation from "original" layouts, see my section "Wrapping up" > [Final Result](#final-result).
+
 I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0), @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar ,@bhulik.
 
 ## Intro
@@ -101,16 +105,18 @@ Identifying a couple of layouts to trial is part of trying to move away from a t
 
 On the hardware (and software) side I've settled on a [ZSA Voyager](https://www.zsa.io/voyager), a (split) programmable custom keyboard that has several features, some commendably "opinionated", that make it worth the purchase (I'm not affiliated with ZSA):
 
-* The keys are swappable.
+* The keycaps are swappable.
+* The key-switches are (hot) swappable.
 * You can program multiple layers.
 * You can program multiple layers through:
   * An easy to use GUI called [Oryx](https://configure.zsa.io/voyager/layouts/YRYG4/latest/0); or
   * Directly customize the underlying (open source) QMK firmware where Oryx is limited; or
   * Most powerfully, use both and merge the result. See [Using a DIY tool to add custom QMK features to your Oryx layout](https://blog.zsa.io/oryx-custom-qmk-features/) (2024-11-07) by Pierre Poulain.
-* The keycaps have shine-through RGB lighting.
-* (An opinionated feature) It has 51 keys, more than many other programmable custom keyboards, that often go for fewer keys at 42 or 36 keys. As with the [Corne 42 LP](https://keebmaker.com/products/corne-low-profile?variant=47647202410795) or the [Corne 36 LP](https://keebmaker.com/products/corne-36-lp-keyboard).
-* (An opinionated feature) It has four thumb keys rather than six thumb keys. Having, and designing for, only four thumb keys seems like the right design choice to make using one's thumbs simpler.
-* (An opinionated feature) The keycaps are low profile. My personal preference.
+* The keycaps have shine-through programmable RGB lighting.
+* It comes with desktop software, "[keymap](https://www.zsa.io/flash#flash-keymapp)", to display your keys and layers.
+* It has 52 keys, more than many other programmable custom keyboards, that often go for fewer keys at 42 or 36 keys. As with the [Corne 42 LP](https://keebmaker.com/products/corne-low-profile?variant=47647202410795) or the [Corne 36 LP](https://keebmaker.com/products/corne-36-lp-keyboard). (An opinionated feature). 
+* It has four thumb keys rather than six thumb keys. Having, and designing for, only four thumb keys seems like the right design choice to make using one's thumbs simpler. (An opinionated feature).
+* The keys are low profile. My personal preference. (An opinionated feature). 
 
 There are more radical recent keyboard designs that are worth consideration. See for example Ben Vallack's demo of the Svalboard @ [I Tried the World's MOST COMFORTABLE Keyboard](https://www.youtube.com/watch?v=-Lz_FNoYHNM). But from among the less radical programmable keyboards, the flat keyboards, I commend the Voyager.
 
@@ -163,7 +169,6 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 1. Taking a list of candidate layouts (see the next section), and variants, to evaluate. Largely those flagged by anyone in "Regard for inrolly2" as worthy. This came to 14 layouts (plus variants). In addition I keep around graphite and qwerty as reference layouts. 
 2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft);
 3. Dumping data from keycraft into Excel and applying @ec0's ranking levels for each metric (more about that in the section below, [Analysis - ways of speaking](#ways-of-speaking)).
-
 4. Bringing to bear insights from the KLD; and
 5. Bringing to bear insights from AKL members in "Regard for inrolly2".
 
@@ -180,7 +185,7 @@ Incidentally, that my qwerty usage is borked flags I may want to practice both a
 
 * Standard laptop usage (custom colstag keyboards on laptops don't yet exist).
 * Mobile phone (software) keyboards.
-* Gaming. Gaming layouts are probably necessarily stuck with qwerty as a reference. I don't think it would be practical to remap a game's keyboard commands to a non qwerty layout. I intend to retain a separate traditional qwerty rowstag keyboard for gaming. I have and endorse a [Keychron K1 Max (formerly "K1 Pro")](https://www.keychron.com/products/keychron-k1-pro-qmk-via-wireless-custom-mechanical-keyboard).
+* Gaming. Gaming layouts are probably necessarily stuck with qwerty as a reference. I don't think it would be practical to remap a game's keyboard commands to a non qwerty layout. I intend to retain a separate traditional qwerty rowstag keyboard for gaming. I have and endorse a [Keychron KK1 Pro](https://www.keychron.com/collections/keychron-k-pro-series-keyboard/products/keychron-k1-pro-qmk-via-wireless-custom-mechanical-keyboard). I'm not affiliated with Keychron.
 
 Again and in sum, the point of my analysis has been to identify one or two layouts that will be worthy of trial.
 
@@ -203,7 +208,7 @@ I evaluated (variants of) the following layouts (in alphabetical order):
 13. trendy
 14. wave2
 
-I used graphite and qwerty to compare.
+I've included graphite and qwerty to compare.
 
 ### Ways of speaking
 
@@ -236,7 +241,7 @@ In the layout diagram, following conventions (more or less) from @ec0's [Keyboar
 
 * The most frequent vowels are coloured <span style="color: rgb(18, 183, 18); font-weight: bold;">green and bolded</span>.
 * The most frequent consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>.
-* The "c" character is coloured <span style="color: rgb(13, 130, 247); font-weight: bold;">blue and bolded</span>.
+* The `c` character is coloured <span style="color: rgb(13, 130, 247); font-weight: bold;">blue and bolded</span>.
 
 In the layout diagram `~` means no key, not the tilde key. Following keycraft convention.
 
@@ -289,15 +294,15 @@ The keycraft `rank` command allows one to use a custom weights file. My weights 
     alt="Default V John's Weights file"
     style="display:block; margin: 0 auto; width:80%; cursor:zoom-in" />
 </a>
-In summary, compared to the default, I penalise higher ALTs and promote 2RL-IN and 3RL-INs.
+In particular, compared to the default, I penalise higher ALTs and promote 2RL-IN and 3RL-INs.
 
-My weights file differences are more shooting from the hip rather than being the result of some careful or deep meditation on the numbers. It's easy to change the rank order of layouts through small tweaks in the weights file. So the weights file is intended to produce a rank that situates us roughly; then from there look more closely at the metric scores for each layout. In other words in principle I could disqualify a layout that scores **better**, based on a weights file, than a layout I may decide to keep.
+My weights file differences are more shooting from the hip rather than being the result of some careful or deep meditation on the numbers. It's easy to change the rank order of layouts through small tweaks in the weights file. So the weights file is intended to produce a rank that situates us roughly; then from there look more closely at the metric scores for each layout. In other words in principle I could disqualify a layout that scores **better**, based on my weights file, than a layout I may decide to keep.
 
 #### Corpus
 
-keycraft comes with three corpora. I use the default, "shai", corpus.
+Keycraft comes with three corpora. I use the default, "shai", corpus.
 
-@iSa tells us (in [AKL > Are there authoritative sources for the corpora: shai and akl? > 2026-02-02, 17:06](https://discord.com/channels/807843650717483049/1467736504980869225/1467763160059482163))
+@iSa tells us (in [AKL > Are there authoritative sources for the corpora: shai and akl? > 2026-02-02 17:06](https://discord.com/channels/807843650717483049/1467736504980869225/1467763160059482163))
 
 > Shai: The default most analysers use, very large sample size corpus generated by cleaning the internet basically.
 
@@ -334,7 +339,7 @@ I then take the layout values and dump them into Excel in order to apply @ec0 Le
     style="cursor: zoom-in;" />
 </a>
 
-I recommend you open this Excel image in a separate tab as it will be referred to frequently below.
+I recommend you open this Excel image in a separate tab as it will be referred to frequently below. Once opened in a separate tab zooming may help sharpen the text (for me, on my setup, zooming to 80% does this sharpening).
 
 ### Reading the stats
 
@@ -343,7 +348,7 @@ A **metric cell's background** is:
 * Green when I wanted to highlight a metric that counts in the layout's favour;
 * Red when I wanted to highlight a metric that counts in the layout's disfavour;
 
-There's no rigorous algorithm I followed when applying these cell backgrounds. These where applied often arbitrarily. For now I suggest ignore them.
+There's no rigorous algorithm I followed when applying these cell backgrounds. These where applied often semi-arbitrarily. For now I suggest ignore them.
 
 A metric cell's background is:
 
@@ -405,7 +410,7 @@ This metric is a companion to "POH", "Pinky Off Home" (although not calculated i
 
 #### Qwerty is shit
 
-If you've read this far you'll likely know that **qwerty is shit** from experience. But including the stats illuminates just how shit it is compared to other possible layouts. 
+If you've read this far you'll likely know that **qwerty is shit** from experience. But reviewing the stats (aka "metrics") illuminates just how shit it is compared to other possible layouts. 
 
 <a href="qwerty-is-shit.png">
   <img
@@ -416,7 +421,7 @@ If you've read this far you'll likely know that **qwerty is shit** from experien
 
 It has maximally undesirable values for several crucial metrics: SFB (Same Finger Bigrams), FSB (Full Scissor Bigrams), FSS (Full Scissor Skipgrams), RED (Redirects), and RLD (Row Load Deviation).
 
-Moreover, those undesirable max values are sometimes significantly above the next highest value from the alternate layouts.
+Moreover, those undesirable max values are sometimes significantly above the next highest value from the alternate layouts (from among those I considered).
 
 For example, ...
 
@@ -436,7 +441,7 @@ Let's dive into RLD (Row Load Deviation) a bit more with `keycraft view qwerty-n
   <img
     src="keycraft-view-qwerty-seht-drai-graphite.png"
     alt="Keycraft view qwerty-ns, shet-drai-cs-ns and graphite-cs-ns"
-    style="cursor: zoom-in; width:80%" />
+    style="cursor: zoom-in;" />
 </a>
 
 ... from the Row block we can see that qwerty-ns has an extremely highish top row usage at 51.6%. The next worse layout on RLD - seht-drai-cs-ns - is better distributed between the rows, with a top row usage at 29.2% being much more desirable.
@@ -474,9 +479,11 @@ And @ec0 elaborates in the [KLD > 8.3. Balancing alternation & rolling](https://
 
 I'm new to the Alt Keyboard Layout forum, so I've yet to have even the anecdotal evidence to back that sociological claim. That is, that are a significant number of users that like highish alternation and lowish rolls, on the one side of that preference fence.
 
-However, it's increasingly clear to me that I'll be after, ideally, lowish alternations and highish rolls.
+However, it's increasingly clear to me that I'll be after, ideally, lowish alternations and highish rolls. 
 
-Anyway, despite those advantages going to qwerty, we eliminate qwerty out because it's so shit on other metrics.
+I'll also prefer "long same hand sequences". Perhaps a hangover from doing piano scales as a youngster.
+
+Anyway, despite the advantages of lowish alternation and highish 3 rolls going to qwerty, we eliminate qwerty because it's so shit on other metrics.
 
 ### Elimination round 2 - eliminating highish alternation layouts
 
@@ -506,9 +513,9 @@ We can next eliminate some layouts for ad hoc reasons. We'll start from the lowe
 
 **seht-drai-cs-ns**. It fails our criteria "Must have bottom row symbol slots on at least middle and ring fingers"; and it has highish FSB ("Full Scissor Bigram").
 
-**rain-cs-ns-cmini**. It has Highish HSB ("Half Scissor Bigram"), Highish HSS ("Half Scissor Skipgram"). Arguably Scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are overriding reasons. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD - we'll boot out rain-cs-ns-cmini.
+**rain-cs-ns-cmini**. It has Highish HSB ("Half Scissor Bigram"), Highish HSS ("Half Scissor Skipgram"). Arguably Scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are overriding reasons. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD, POH - we'll boot out rain-cs-ns-cmini.
 
-**flame-cs-ns**? This scores well. And most of the metrics have desirable values (see the metric cells with a green background). It scores highish 2RL, although lowish 3RL. We could endure the low 3RL given the very high 2RL. However, there's an issue that's not reflected in the metrics presented.
+**flame-cs-ns**? This scores well. And many of the metrics have desirable values (see the metric cells with a green background). It scores highish 2RL, although lowish 3RL. We could endure the low 3RL given the very high 2RL. However, there's an issue that's not reflected in the metrics presented.
 
 @ec0 observes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.3.2. HM or HML + vowels > NRTS / RNTS](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0)
 
@@ -540,10 +547,11 @@ So let's leave flame-cs-ns in contention for now.
 
 This is particular because the Voyager, desirably in my view, has only 4 thumb keys to play with.
 
-Nevertheless some readers may which to precisely jump on this layout, given it is best scoring overall. That is, so long as they don't mind:
+Nevertheless some readers, including those that are Voyager users, may which to jump on this layout, given it is best scoring overall. That is, so long as they don't mind:
 
 * The thumb alpha (e);
-* Max LSB; and
+* Max LSB;
+* Very High LSS; and
 * Max ICC
 
 At the end of our elimination round we have a shortlist ...
@@ -590,14 +598,14 @@ It does very badly on other metrics ...
 
 We are seeing that bear out with ints-cs-ns. The highish rolls (2RL and 3RL) have resulted in highish redirects.
 
-However, despite this outcome of highish redirects (and very high HSB), I'll keep this layout as a winner worth trialling. As it's: otherwise excellent; and uniquely in this "3rolls" class.
+However, despite this outcome of highish redirects (and very high HSB), I'll keep this layout as a winner worth trialling. As it's: otherwise excellent; and the only layout in the shortlist in the "3rolls" class.
 
 During the trial I'll be asking myself:
 
 * Are redirects all that bad? and/or
-* Given I endured a similar level of redirects during qwerty, will it just feel vastly superior (and superior to graphite)?
+* Given I endured a similar level of redirects during qwerty, will it just feel vastly superior to qwerty (and superior to graphite)?
 
-### Elimination round 4 - the battle of the highish roll; lowish redirect layouts
+### Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns
 
 Let's pit the two "Highish Roll; lowish redirect" layouts against each other, **flame-cs-ns V sturdy-cs-ns**.
 
@@ -609,7 +617,7 @@ As I mentioned above in [Elimination round 3 - eliminating layouts for ad hoc re
 
 > Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index [in this case against sturdy-cs-ns] ... it's not by much.
 
-I don't think that sturdy-cs-ns' superior SFB score and superior SFB index concentration performance overriding. 
+I don't think that sturdy-cs-ns's superior SFB score and superior SFB index concentration performance overriding. 
 
 Therefore, taking into account the metrics overall, the advantage is retained by **flame-cs-ns**.
 
@@ -656,7 +664,7 @@ We can see that in keycraft stats. With `keycraft analyse wave2-cs-ns flame-cs-n
 
 ... "str" is a (desirable) roll under flame and sturdy but a weak redirect under wave2. Moreover, it is the eighth most popular redirect under wave2.
 
-However, it's the ninety-ninth most popular trigram, under shai (the general English corpus) ...
+However, it's the ninety-ninth most popular trigram, under shai, the general English corpus, (continuing with output from `keycraft analyse wave2-cs-ns flame-cs-ns sturdy-cs-ns --trigram-rows 100`  above) ...
 
 <a href="keycraft-analyse-str-trigrams.png"><img src="keycraft-analyse-str-trigrams.png" alt="Keycraft 'str' trigram for wave2 flame sturdy, general trigram frequency" style="display:block; margin: 0 auto; cursor:zoom-in" /></a>
 
@@ -664,7 +672,7 @@ So, as a general English matter it wouldn't seem worth especially weighting "str
 
 As a programmer "str" will appear more frequently in virtue of the data type "string". As previously mentioned, optimising for programming is going to benefit far more through optimising a symbols layer (and the interplay of the few symbols on the main layer and the symbols layer).
 
-So there is the slight advantage to **flame-cs-ns** (and sturdy-cs-ns) over wave2-cs-ns. But overall I don't think "str" is worth taking into account, in the contest between flame (or sturdy) and wave2. But if it bugged you particularly I'd recommend using flame over sturdy for the advantages mentioned in [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts).
+So there is the slight advantage to **flame-cs-ns** (and sturdy-cs-ns) over wave2-cs-ns. But overall I don't think "str" is worth taking into account, in the contest between flame (or sturdy) and wave2. But if it bugged you particularly, and you must have a layout with "str" as a roll, I'd recommend using flame over sturdy for the advantages mentioned in [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts).
 
 #### Issue 3: general stats advantage
 
@@ -824,7 +832,7 @@ Above all else having `<`,`/`,`>` on home row ring, middle, and index fingers is
 
 But there's necessarily an interplay between this symbols layer, as for any symbols layer, with the symbols one wants to have on the main layer.
 
-We can plot unigrams by taking (the top 58) results from `keycraft corpus --corpus shai.txt` and plotting them in Excel ...
+We can take the top 58 unigrams from `keycraft corpus --corpus shai.txt` (and plot them in Excel) ...
 
 <a href="shai-unigrams-top58.png">
   <img
@@ -835,7 +843,7 @@ We can plot unigrams by taking (the top 58) results from `keycraft corpus --corp
 
 ... and observe that the following symbols are the top 5 most frequent `.,-'"`. Those are therefore good candidates for the main layer.
 
-However, in my trials of interplay between the main layer and symbols layer I've found that putting single and double quotes on the symbols layers aids with the top bigrams for programming ...
+However, in my trials of interplay between the main layer and symbols layer I've found that putting single and double quotes on the symbols layers aids with the top bigrams for programming (I've use a custom programming corpus which is not publicly available) ...
 
 <a href="programming-corpus-bigrams-quotes-highlighted.png">
   <img
@@ -844,7 +852,7 @@ However, in my trials of interplay between the main layer and symbols layer I've
     style="cursor: zoom-in;" />
 </a>
 
-Less so with hyphen, `-`, but that also works well on the symbols layer, on the middle finger home button. So on the main layer I just "need" to position `.,`
+Less so with hyphen, `-`. That is, there aren't too many bigrams from above with a hyphen that compels one to put the hyphen on the symbols layer.  However, a hyphen *does* work well on the symbols layer, on the middle finger home button. So on the main layer I just "need" to position `.,`
 
 So I'll define, for the main layer "John Bentley symbols":
 
@@ -905,7 +913,7 @@ z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
         2. flame (winner)
       </th>
       <td>
-        <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0">flame  by Oxey (anglemod)</a>
+        <a href="https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf">flame by Oxey (anglemod). keycraft version.</a>
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ,
 <span style="color: red; font-weight: bold;">r n t s</span> y  j l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
  b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .
@@ -968,3 +976,4 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
+
