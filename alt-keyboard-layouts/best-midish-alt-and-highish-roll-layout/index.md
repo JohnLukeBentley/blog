@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-22 10:40  ...
+Under construction @ 2026-02-22 11:46 ...
 
 ## Table of contents
 
@@ -136,14 +136,12 @@ The other idiosyncratic criteria include:
 * **Colstag** (column staggered) layout. As colstag is an ergonomic improvement on rowstag.
 * Excluding **thumb alpha layouts**. To keep the thumb keys for other things like backspace, tab, enter, space. As we'll later see with regard to sturde (a derivation of sturdy with a thumb alpha key) these layouts can be well optimised across many metrics. However, as a personal preference, I'll avoid a thumb alpha layout.
 * Must have **bottom row symbol slots** on at least ring and middle fingers. Because I'm set in my qwerty ways for `.` and `,` and so want these on my main layer (although they could be on the left hand).
-  
 * Optimising the (main) layer for **general English**.
 
   I'm wanting to optimise my *keyboard* for typing both general English (prose, essays, etc.) and programming. The ideal corpus of words (excluding symbols) in programming will be different from ideal corpus of words (excluding symbols) in general English. For example, the keyword "String" is going to appear more frequently in programming. However, the main speed and smoothness impediment in programming are the symbol keys. I'll be taking care of symbols largely with a separate symbols layer; with some high frequency general English symbols on the main layer (`.` and `,`). And so, for the main layer (what this article is about) I'll:
 
   - Optimize for general English words over programming words; and
   - In my analysis I'll remove symbols from the candidate layouts. Allowing that one's preferred symbols can be inserted in after analysis. And treating symbols optimisation as a separate consideration.
-
 
 * No **magic key**. A magic key is a worthy innovation by Ikcelaks, "a key that dynamically adjusts its output based on the most recent previous keycode." ([https://github.com/Ikcelaks/keyboard_layouts](https://github.com/Ikcelaks/keyboard_layouts)). However, I'll avoid a magic key as this would make the layout advanced (for me).
 * No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; and/or this might be an advanced (for me).
@@ -169,7 +167,7 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 
 1. Taking a list of candidate layouts (see the next section), and variants, to evaluate. Largely those flagged by anyone in "Regard for inrolly2" as worthy. This came to 14 layouts (plus variants). In addition I keep around graphite and qwerty as reference layouts.
 2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft);
-3. Dumping data from keycraft into Excel and applying @ec0's ranking levels for each metric (more about that in the section below, [Analysis - ways of speaking](#ways-of-speaking)).
+3. Dumping data from keycraft into Excel and applying @ec0's ranking levels for each metric (more about that in the section below, [Reading the stats](#reading-the-stats)).
 4. Bringing to bear insights from the KLD; and
 5. Bringing to bear insights from AKL members in "Regard for inrolly2".
 
@@ -271,7 +269,9 @@ colstag
 
 That is, I've changed the "rowstag" keyword to "colstag". And I've blanked out the symbols with tildes ("~").
 
-Evidently in keycraft both matter. E.g. `keycraft view graphite graphite-cs-ns` will produce differences in layout presentation and metric calculation (@ironcollar could say more).
+Excepting I've left the space key. Designated with an underscore "_" (I'm guessing this to be true, rather than knowing).
+
+Evidently in keycraft both the *stag keyword and symbols matter. E.g. `keycraft view graphite graphite-cs-ns` will produce differences in layout presentation and metric calculation (@ironcollar could say more).
 
 <a href="KeycraftViewGraphiteGraphiteCSNS-2026-02-01-113443.png">
   <img
@@ -409,7 +409,7 @@ This metric is a companion to "POH", "Pinky Off Home" (although not calculated i
 
 #### Qwerty is shit
 
-If you've read this far you'll likely know that **qwerty is shit** from experience. But reviewing the stats (aka "metrics") illuminates just how shit it is compared to other possible layouts.
+If you've read this far you'll likely know that **qwerty is shit** from experience. But reviewing the stats illuminates just how shit it is compared to other possible layouts.
 
 <a href="qwerty-is-shit.png">
   <img
