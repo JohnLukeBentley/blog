@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-22 11:46 ...
+Under construction @ 2026-02-23 15:47 ...
 
 ## Table of contents
 
@@ -231,7 +231,7 @@ My abbreviations for layout naming:
 
 I don't commend any general uptake of these abbreviations. I stipulate them for this blog post.
 
-In the layout diagram, following conventions (more or less) from @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2yb5bwiy1wa8#heading=h.rwlzs0nuaefi) (KLD):
+In the layout diagram, following conventions (more or less) from @ec0's [Keyboard layouts doc (3rd edition) > ... > 13.2. Layout stat table](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.uljxgg1xetqe#heading=h.rjxckyg9kkgq)) (KLD):
 
 * The most frequent vowels are coloured <span style="color: rgb(18, 183, 18); font-weight: bold;">green and bolded</span>.
 * The most frequent consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>.
@@ -245,7 +245,7 @@ In the layout diagram `~` means no key, not the tilde key. Following keycraft co
 
 After installing keycraft (v0.5.0) I copied and modified the 16 layouts of interest.
 
-From example data\layouts\graphite.klf ...
+From example `data\layouts\graphite.klf` ...
 
 ```text
 # https://github.com/rdavison/graphite-layout
@@ -256,7 +256,7 @@ rowstag
       ~ ~ ~  _ ~ ~
 ```
 
-... is copied as data\layouts\graphite-cs-ns.klf ...
+... is copied as `data\layouts\graphite-cs-ns.klf` ...
 
 ```text
 # https://github.com/rdavison/graphite-layout
@@ -267,11 +267,18 @@ colstag
       ~ ~ ~  _ ~ ~
 ```
 
-That is, I've changed the "rowstag" keyword to "colstag". And I've blanked out the symbols with tildes ("~").
+That is, I've changed the "rowstag" keyword to "colstag". And I've blanked out the symbols with tildes `~`.
 
-Excepting I've left the space key. Designated with an underscore "_" (I'm guessing this to be true, rather than knowing).
+Excepting I've left the space key. Designated with an underscore `_`. I'm guessing this to be true, rather than knowing. At the very least I've verified that layout metrics aren't altered if one blanks out the underscore `_` with a tilde `~`. 
 
-Evidently in keycraft both the *stag keyword and symbols matter. E.g. `keycraft view graphite graphite-cs-ns` will produce differences in layout presentation and metric calculation (@ironcollar could say more).
+<a href="keycraft-blanking-space-effect.png">
+  <img
+    src="keycraft-blanking-space-effect.png"
+    alt="Keycraft blanking a space effects"
+    style="cursor: zoom-in;" />
+</a>
+
+Evidently in keycraft both the *stag keyword and (otherwise) symbols matter. E.g. `keycraft view graphite graphite-cs-ns` will produce differences in layout presentation and metric calculation (@ironcollar could say more).
 
 <a href="KeycraftViewGraphiteGraphiteCSNS-2026-02-01-113443.png">
   <img
@@ -346,7 +353,7 @@ A **metric cell's background** is:
 
 There's no rigorous algorithm I followed when applying these cell backgrounds. These where applied often semi-arbitrarily. For now I suggest ignore them.
 
-A metric cell's background is shaded darker green or darker yellow for slightly worse metrics for similar scoring layout variants of the same type. That is, I have variants of ints, wave2, and flame; and apply cell background shading for these.
+A metric cell's background is shaded darker green or darker yellow for slightly worse metrics for similar scoring layout variants of the same type. That is, I have variants (not yet shown) of ints, wave2, and flame; and apply cell background shading for these.
 
 Likewise, for now, I suggest ignore these background colours.
 
@@ -371,7 +378,7 @@ Looking at the Excel output when I refer to metric **value** I'll use either of 
 
 I use **@ec0 levels** but **the values I use to define these are custom**. For each metric:
 
-* I've largely taken the lowest and highest values for the 16 layouts, excluding the outlier (often qwerty) as defining the min and max values; and
+* I've taken the lowest and highest values for the 16 layouts, often excluding the outlier (often qwerty) as defining the min and max values; and
 * Occasionally I've gone beyond those min and max values as I did some analysis against the AKL corpus (which I won't show in this article as that corpus is ultimately irrelevant).
 
 <a href="metric-upper-and-lower-bounds.png">
@@ -407,9 +414,11 @@ This metric is a companion to "POH", "Pinky Off Home" (although not calculated i
 
 > I don't see why the Qwerty stats matter. Still, if you want them I can look into that in another moment when I'm home ...
 
+(@ec0 your adding qwerty stats to KLD is no longer something I desire, given I have them here, from keycraft).
+
 #### Qwerty is shit
 
-If you've read this far you'll likely know that **qwerty is shit** from experience. But reviewing the stats illuminates just how shit it is compared to other possible layouts.
+If you've read this far you'll likely know that qwerty is shit from experience. But reviewing the stats illuminates just how shit it is compared to other possible layouts.
 
 <a href="qwerty-is-shit.png">
   <img
@@ -418,7 +427,7 @@ If you've read this far you'll likely know that **qwerty is shit** from experien
     style="cursor: zoom-in;" />
 </a>
 
-It has maximally undesirable values for several crucial metrics: SFB (Same Finger Bigrams), FSB (Full Scissor Bigrams), FSS (Full Scissor Skipgrams), RED (Redirects), and RLD (Row Load Deviation).
+It has maximally undesirable values for several crucial metrics: SFB (Same Finger Bigrams), FSB (Full Scissor Bigrams), FSS (Full Scissor Skipgrams), RED (Redirects), and RLD (Row Load Deviation). To limit the enumeration. Some set of the other maxed metrics are arguably crucial too - LSB, SFS, LSS, 2RL-SFB, 3RL-SFB, RED-SFS, HLD, FLD, ICC.
 
 Moreover, those undesirable max values are sometimes significantly above the next highest value from the alternate layouts (from among those I considered).
 
@@ -476,7 +485,7 @@ And @ec0 elaborates in the [KLD > 8.3. Balancing alternation & rolling](https://
 
 > Which to favor between rolling and alternation is subjective. It can be said that **alternation offers a more consistent typing experience, as it feels rhythmic and minimizes awkward sequences. Meanwhile, rolling has higher highs** (words that feel very smooth) **but lower lows** (long same hand sequences). [Emphasis original]
 
-I'm new to the Alt Keyboard Layout forum, so I've yet to have even the anecdotal evidence to back that sociological claim. That is, that are a significant number of users that like highish alternation and lowish rolls, on the one side of that preference fence.
+I'm new to the Alt Keyboard Layout forum, so I've yet to have even the anecdotal evidence to back that sociological implication. That is, that are a significant number of users that like highish alternation and lowish rolls, on the one side of that preference fence.
 
 However, it's increasingly clear to me that I'll be after, ideally, lowish alternations and highish rolls.
 
@@ -512,7 +521,7 @@ We can next eliminate some layouts for ad hoc reasons. We'll start from the lowe
 
 **seht-drai-cs-ns**. It fails our criteria "Must have bottom row symbol slots on at least ring and middle fingers"; and it has highish FSB ("Full Scissor Bigram").
 
-**rain-cs-ns-cmini**. It has Highish HSB ("Half Scissor Bigram"), Highish HSS ("Half Scissor Skipgram"). Arguably Scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are overriding reasons. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD, POH - we'll boot out rain-cs-ns-cmini.
+**rain-cs-ns-cmini**. It has highish HSB ("Half Scissor Bigram"), highish HSS ("Half Scissor Skipgram"). Arguably scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are overriding reasons. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD, POH - we'll boot out rain-cs-ns-cmini.
 
 **flame-cs-ns**? This scores well. And many of the metrics have desirable values (see the metric cells with a green background). It scores highish 2RL, although lowish 3RL. We could endure the low 3RL given the very high 2RL. However, there's an issue that's not reflected in the metrics presented.
 
@@ -536,7 +545,7 @@ Scoring these layouts *without* SFB concentrated on the index (higher is better)
 * ints-cs-ns: 2 SFBs
 * flame-cs-ns: 2 SFBs
 
-Although it's true, therefore, that flame-cs-ns has higher SFB concentration on the index ... it's not by much. They all have a large concentration of SFB on the index.
+Although it's true, therefore, that flame-cs-ns has higher SFB concentration on the index (left or right) ... it's not by much. They all have a large concentration of SFB on the index.
 
 Moreover, flame-cs-ns scores better on several other metrics compared to, say wave-cs-ns. Notably, RED, RED-WEAK, FLD, POH. (Although wave-cs-ns beats flame-cs-ns on other metrics).
 
@@ -614,7 +623,7 @@ sturdy-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram). Very 
 
 As I mentioned above in [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
 
-> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index [in this case against sturdy-cs-ns] ... it's not by much.
+> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index (left or right) [in this case against sturdy-cs-ns] ... it's not by much.
 
 I don't think that sturdy-cs-ns's superior SFB score and superior SFB index concentration performance overriding.
 
@@ -633,7 +642,7 @@ We'll dive into some niche considerations before looking at any general metrics 
 
 As mentioned above in [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
 
-> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index [here compared to wave2-cs-ns] ... it's not by much.
+> Although it's true, ..., that flame-cs-ns has higher SFB concentration on the index (left or right) [here compared to wave2-cs-ns] ... it's not by much.
 
 A slight advantage to **wave2-cs-ns**.
 
@@ -674,7 +683,7 @@ None of the above seem decisive, we let's look at the general metrics advantage 
 
 wave2-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram), HSB (Half Scissor Bigram)
 
-flame-cs-ns significantly beats wave2-cs-ns on
+flame-cs-ns significantly beats wave2-cs-ns on:
 
 * FLD (Finger Load Deviation), and
 * Particularly POH (Pinky Off Home). Min (0.48%) V Mid low (2.08%).
