@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-23 15:47 ...
+Under construction @ 2026-03-01 19:14 ...
 
 ## Table of contents
 
@@ -100,7 +100,7 @@ I'm fairly happy with that symbols layer although it is subject to further tweak
 
 For a table of the above layouts, and their derivation from "original" layouts, see my section "Wrapping up" > [Final Result](#final-result).
 
-I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0), @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar ,@bhulik.
+I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0), @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar and @bhulik.
 
 ## Intro
 
@@ -144,7 +144,7 @@ The other idiosyncratic criteria include:
   - In my analysis I'll remove symbols from the candidate layouts. Allowing that one's preferred symbols can be inserted in after analysis. And treating symbols optimisation as a separate consideration.
 
 * No **magic key**. A magic key is a worthy innovation by Ikcelaks, "a key that dynamically adjusts its output based on the most recent previous keycode." ([https://github.com/Ikcelaks/keyboard_layouts](https://github.com/Ikcelaks/keyboard_layouts)). However, I'll avoid a magic key as this would make the layout advanced (for me).
-* No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; and/or this might be an advanced (for me).
+* No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; and/or this might be advanced (for me).
 * Consistent with the above otherwise trying to find the layouts that score best on **the metrics overall**. Noting if you optimize for one metric that can penalize one or more other metrics.
 
 ## Context
@@ -231,7 +231,7 @@ My abbreviations for layout naming:
 
 I don't commend any general uptake of these abbreviations. I stipulate them for this blog post.
 
-In the layout diagram, following conventions (more or less) from @ec0's [Keyboard layouts doc (3rd edition) > ... > 13.2. Layout stat table](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.uljxgg1xetqe#heading=h.rjxckyg9kkgq)) (KLD):
+In the layout diagram, following conventions (more or less) from @ec0's [Keyboard layouts doc (3rd edition) > ... > Chapter 13: Layout subgroups](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.uljxgg1xetqe)) (KLD):
 
 * The most frequent vowels are coloured <span style="color: rgb(18, 183, 18); font-weight: bold;">green and bolded</span>.
 * The most frequent consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>.
@@ -245,7 +245,7 @@ In the layout diagram `~` means no key, not the tilde key. Following keycraft co
 
 After installing keycraft (v0.5.0) I copied and modified the 16 layouts of interest.
 
-From example `data\layouts\graphite.klf` ...
+For example `data\layouts\graphite.klf` ...
 
 ```text
 # https://github.com/rdavison/graphite-layout
@@ -427,7 +427,7 @@ If you've read this far you'll likely know that qwerty is shit from experience. 
     style="cursor: zoom-in;" />
 </a>
 
-It has maximally undesirable values for several crucial metrics: SFB (Same Finger Bigrams), FSB (Full Scissor Bigrams), FSS (Full Scissor Skipgrams), RED (Redirects), and RLD (Row Load Deviation). To limit the enumeration. Some set of the other maxed metrics are arguably crucial too - LSB, SFS, LSS, 2RL-SFB, 3RL-SFB, RED-SFS, HLD, FLD, ICC.
+It has maximally undesirable values for several crucial metrics: SFB (Same Finger Bigrams), FSB (Full Scissor Bigrams), FSS (Full Scissor Skipgrams), RED (Redirects), and RLD (Row Load Deviation). To limit the enumeration. Some set of the other maxed metrics are arguably crucial too - LSB (Lateral Stretch Bigram), SFS (Same Finger Skipgram), LSS (Lateral Stretch Skipgram), 2RL-SFB (2-key Rolls — Same Finger Bigram), 3RL-SFB (3-key Rolls — Same Finger Bigram), RED-SFS (Redirections — Same Finger Skipgram), HLD (Hand Load Deviation), FLD (Finger Load Deviation), ICC (Index Centre Column).
 
 Moreover, those undesirable max values are sometimes significantly above the next highest value from the alternate layouts (from among those I considered).
 
@@ -474,8 +474,8 @@ However, I grew suspicious that graphite had drawbacks that qwerty didn't. And t
 
 ... namely, that:
 
-* qwerty had **lowish alternation** against graphite's highish alternation ... and that I find highish alternation a cognitive burden rather than a positive; and
-* qwerty has **highish 3RL** (3-key Rolls total) ... and I like 3 rolls! Indeed against all the other candidate layouts only qwerty and those in the "3Rolls" class have highish 3 rolls.
+* qwerty had **lowish alternation** (ALT: Alternation total) against graphite's highish alternation ... and that I find highish alternation a cognitive burden rather than a positive; and
+* qwerty had **highish 3RL** (3RL: 3-key Rolls total) ... and I like 3 rolls! Indeed against all the other candidate layouts only qwerty and those in the "3Rolls" class have highish 3 rolls.
 
 It's alleged - [https://layouts.wiki/guides/start/recommendations/ > Sturdy](https://layouts.wiki/guides/start/recommendations/#sturdy) - that:
 
