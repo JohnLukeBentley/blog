@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-03 14:59 ...
+Under construction @ 2026-03-03 15:15 ...
 
 ## Table of contents
 
@@ -1006,7 +1006,7 @@ However, there's nothing bright line about these winners (nor runner up), that m
 
 And so pick out a different set of layouts as winners.
 
-It's not as if there exists a layout the scores best on all the metrics. Because there can't be. In particular, you can't maximise alternation and maximise rolls. That's one of the logically necessary trade-offs.
+It's not as if there exists a layout that scores best on all the metrics. Because there can't be. In particular, you can't maximise alternation and maximise rolls. That's one of the logically necessary trade-offs.
 
 Nevertheless I can't help but wonder if over time the community will come up with a few bright line winners because:
 
@@ -1020,4 +1020,6 @@ Nevertheless I can't help but wonder if over time the community will come up wit
 
 * Some combination of AI, analyser, and human insight will produce better optimised layouts against a set of metrics viewed as important.
 
-That is, I wonder if clear winners will emerge from above the current soup of layout experiments and varying preferences. I hope so.
+That is, I wonder if a consensus of clear winners will emerge from the current soup of layout experiments and varying preferences. I hope so.
+
+Thankfully programmable keyboards allow one to completely customise layouts according to one's preferences, whether they accord with a consensus or not. And so we are already in the golden age of keyboards and layouts.
