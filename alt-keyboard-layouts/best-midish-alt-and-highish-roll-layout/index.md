@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-01 19:14 ...
+Under construction @ 2026-03-03 14:59 ...
 
 ## Table of contents
 
@@ -11,33 +11,34 @@ Under construction @ 2026-03-01 19:14 ...
 * [Criteria](#criteria)
 * [Context](#context)
 * [Analysis](#analysis)
-  * [Overview](#overview)
-  * [The candidate layouts](#the-candidate-layouts)
-  * [Ways of speaking](#ways-of-speaking)
-  * [Layout key](#layout-key)
-  * [Keycraft customisation](#keycraft-customisation)
-    * [Layout customisation](#layout-customisation)
-    * [Weights file customisation](#weights-file-customisation)
-    * [Corpus](#corpus)
-  * [The stats](#the-stats)
-  * [Reading the stats](#reading-the-stats)
-  * [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
-    * [Qwerty is shit](#qwerty-is-shit)
-    * [... but not all shit](#-but-not-all-shit)
-  * [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
-  * [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
-  * [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
-  * [Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts---flame-cs-ns-v-sturdy-cs-ns)
-  * [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
-    * [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
-    * [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
-    * [Issue 3: general metrics advantage](#issue-3-general-metrics-advantage)
-    * [Modifying the layouts](#modifying-the-layouts)
-  * [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
+	* [Overview](#overview)
+	* [The candidate layouts](#the-candidate-layouts)
+	* [Ways of speaking](#ways-of-speaking)
+	* [Layout key](#layout-key)
+	* [Keycraft customisation](#keycraft-customisation)
+		* [Layout customisation](#layout-customisation)
+		* [Weights file customisation](#weights-file-customisation)
+		* [Corpus](#corpus)
+	* [The stats](#the-stats)
+	* [Reading the stats](#reading-the-stats)
+	* [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
+		* [Qwerty is shit](#qwerty-is-shit)
+		* [... but not all shit](#-but-not-all-shit)
+	* [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
+	* [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+	* [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
+	* [Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts---flame-cs-ns-v-sturdy-cs-ns)
+	* [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
+		* [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
+		* [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
+		* [Issue 3: general metrics advantage](#issue-3-general-metrics-advantage)
+		* [Modifying the layouts](#modifying-the-layouts)
+	* [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
 * [Wrapping up](#wrapping-up)
-  * [Review](#review)
-  * [Symbols layer](#symbols-layer)
-  * [Final Result](#final-result)
+	* [Review](#review)
+	* [Symbols layer](#symbols-layer)
+	* [Final Result](#final-result)
+	* [Concluding thoughts](#concluding-thoughts)
 
 ## Summary
 
@@ -228,6 +229,7 @@ My abbreviations for layout naming:
 * "cs" for "colstag", a column staggered keyboard.
 * "ns" for "no symbols". That is, symbols were removed from the layout before that part of my analysis that used the analyser [keycraft](https://github.com/rbscholtus/keycraft).
 * "jbs" for "John Bentley symbols" (for want of a better phrase). That is, symbols I define on the layout, which are likely different from symbols defined on the original layout.
+* "swap-x" or "swap-xy". Where one or more key swaps have occurred.
 
 I don't commend any general uptake of these abbreviations. I stipulate them for this blog post.
 
@@ -238,6 +240,22 @@ In the layout diagram, following conventions (more or less) from @ec0's [Keyboar
 * The `c` character is coloured <span style="color: rgb(13, 130, 247); font-weight: bold;">blue and bolded</span>.
 
 In the layout diagram `~` means no key, not the tilde key. Following keycraft convention.
+
+So some example layout names and diagrams, derived from an original **ints** layout, are:
+
+**ints-cs-ns-swap-q**: (ns)
+
+<pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
+<span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
+z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
+</samp></pre>
+
+**ints-cs-jlb-swap-q**: (jlb)
+
+<pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
+<span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
+z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
+</samp></pre>
 
 ### Keycraft customisation
 
@@ -768,7 +786,9 @@ z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
 </samp></pre>
 And that's causes a negligible change in the stats.
 
- <a href="keycraft-ints-variants.png">
+
+
+<a href="keycraft-ints-variants.png">
   <img
     src="keycraft-ints-variants.png"
     alt="Keycraft ints variants"
@@ -852,7 +872,7 @@ However, in my trials of interplay between the main layer and symbols layer I've
 
 Less so with hyphen, `-`. That is, there aren't too many bigrams from above with a hyphen that compels one to put the hyphen on the symbols layer.  However, a hyphen *does* work well on the symbols layer, on the middle finger home button. So on the main layer I just "need" to position `.,`
 
-So I'll define, for the main layer "John Bentley symbols":
+So I'll define, for the main layer, "John Bentley symbols" as:
 
 * `.,` as mandatory and on the ring and middle fingers respectively (whether on the left or right hand); and
 * Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these main layer "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
@@ -974,3 +994,30 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
+### Concluding thoughts
+
+Subject to feedback on things I may have missed, I'm satisfied my analysis has identified the right winners (and runner up) against the stipulated criteria: midish-to-lowish alternating, highish roll, and matching the other idiosyncrasies. Winners as worthy of trial.
+
+However, there's nothing bright line about these winners (nor runner up), that make them unequivocally above the pack of other layouts. It'd be very easy to:
+
+* Change some of the keycraft layout data: with variant layouts, or by including a specific set of symbols in those layouts; and/or
+* Use a different keycraft weights file to produce a different ranking; and/or
+* Given the data I've produced, decide that a different set of metrics are more important.
+
+And so pick out a different set of layouts as winners.
+
+It's not as if there exists a layout the scores best on all the metrics. Because there can't be. In particular, you can't maximise alternation and maximise rolls. That's one of the logically necessary trade-offs.
+
+Nevertheless I can't help but wonder if over time the community will come up with a few bright line winners because:
+
+* A consensus will emerge over what metrics are important. Or two or three distinct camps will emerge that prioritize sets of metrics over others, which will yield winning layouts for those camps e.g.
+
+  * A lowish alt, highish roll camp (might yield **ints** as the winner);
+  * A highish alt, lowish roll camp (might yield **graphite** as the winner); and
+  * A camp favouring other metric sets like - lowish FSB (Full Scissor Bigram), highish 2RL (2 roll), lowish RED (Redirect), lowish FLD (Finger Load Deviation), lowish POH (Pinky Off Home) - (might yield **flame** as the winner).
+
+  -- and/or --
+
+* Some combination of AI, analyser, and human insight will produce better optimised layouts against a set of metrics viewed as important.
+
+That is, I wonder if clear winners will emerge from above the current soup of layout experiments and varying preferences. I hope so.
