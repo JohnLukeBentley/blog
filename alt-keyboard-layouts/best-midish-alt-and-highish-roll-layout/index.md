@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-03 15:15 ...
+Under construction @ 2026-03-03 15:23 ...
 
 ## Table of contents
 
@@ -1006,7 +1006,7 @@ However, there's nothing bright line about these winners (nor runner up), that m
 
 And so pick out a different set of layouts as winners.
 
-It's not as if there exists a layout that scores best on all the metrics. Because there can't be. In particular, you can't maximise alternation and maximise rolls. That's one of the logically necessary trade-offs.
+It's not as if there exists a layout that scores best on all the metrics. Because there can't be. In particular, you can't maximise alternation and maximise rolls (both 2RL and 3RL). That's one of the logically necessary trade-offs.
 
 Nevertheless I can't help but wonder if over time the community will come up with a few bright line winners because:
 
