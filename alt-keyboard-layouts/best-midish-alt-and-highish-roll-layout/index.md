@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-04 14:38 ...
+Under construction @ 2026-03-04 16:44 ...
 
 ## Table of contents
 
@@ -99,13 +99,13 @@ I have chosen these layouts having mind they'll work with a symbols layer of min
 
 I'm fairly happy with that symbols layer although it is subject to further tweaking, along with the symbols I'll have on the main layer. However, I think it likely on the main layer `.` and `,` will remain where they are (with respect to the layouts above).
 
-For a table of the above layouts, and their derivation from "original" layouts, see my section "Wrapping up" > [Final Result](#final-result).
+For a table of the above layouts, and their derivation from "original" layouts, see my section "Wrapping up" > [Final result](#final-result).
 
-I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in participation order): @novachromatic (nova (real name zak)) , @ec0vid (ec0), @iSa, @zak.7 (zahp) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ironcollar and @bhulik.
+I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in no order): @novachromatic (nova), @ec0vid (ec0), @iSa, @zak.7 (yak renter) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ikcelaks, @ironcollar, @bhulik, @despampanante and @duodeath.
 
 ## Intro
 
-Identifying a couple of layouts to trial is part of trying to move away from a traditional row staggered qwerty keyboard, which is infamously awful to type on for historical reasons, to find a hardware, software, and layout solution to make typing feel smooth and joyful. Smooth and joyful above even speed improvements. While a more optimal hardware and software solution is likely to make one, with practice, type faster; the goal of "smooth and joyful" is primary.
+Identifying a couple of layouts to trial is part of trying to move away from a traditional row staggered qwerty keyboard, which is infamously awful to type on for historical reasons. I want to find a hardware, software, and layout solution to make typing feel smooth and joyful. Smooth and joyful above even speed improvements. While a more optimal hardware and software solution is likely to make one, with practice, type faster; the goal of "smooth and joyful" is primary.
 
 ## Hardware (and software)
 
@@ -136,7 +136,7 @@ The other idiosyncratic criteria include:
 
 * **Colstag** (column staggered) layout. As colstag is an ergonomic improvement on rowstag.
 * Excluding **thumb alpha layouts**. To keep the thumb keys for other things like backspace, tab, enter, space. As we'll later see with regard to sturde (a derivation of sturdy with a thumb alpha key) these layouts can be well optimised across many metrics. However, as a personal preference, I'll avoid a thumb alpha layout.
-* Must have **bottom row symbol slots** on at least ring and middle fingers. Because I'm set in my qwerty ways for `.` and `,` and so want these on my main layer (although they could be on the left hand).
+* Must have **bottom row symbol slots** on at least ring and middle fingers. Because I'm set in my qwerty ways for `.` and `,` - the two most frequent symbols in a general English (see below [Wrapping up > Symbols Layer](#symbols-layer)) - and so want these on my main layer (although they could be on the left hand).
 * Optimising the (main) layer for **general English**.
 
   I'm wanting to optimise my *keyboard* for typing both general English (prose, essays, etc.) and programming. The ideal corpus of words (excluding symbols) in programming will be different from ideal corpus of words (excluding symbols) in general English. For example, the keyword "String" is going to appear more frequently in programming. However, the main speed and smoothness impediment in programming are the symbol keys. I'll be taking care of symbols largely with a separate symbols layer; with some high frequency general English symbols on the main layer (`.` and `,`). And so, for the main layer (what this article is about) I'll:
@@ -144,7 +144,7 @@ The other idiosyncratic criteria include:
   - Optimize for general English words over programming words; and
   - In my analysis I'll remove symbols from the candidate layouts. Allowing that one's preferred symbols can be inserted in after analysis. And treating symbols optimisation as a separate consideration.
 
-* No **magic key**. A magic key is a worthy innovation by Ikcelaks, "a key that dynamically adjusts its output based on the most recent previous keycode." ([https://github.com/Ikcelaks/keyboard_layouts](https://github.com/Ikcelaks/keyboard_layouts)). However, I'll avoid a magic key as this would make the layout advanced (for me).
+* No **magic key**. A magic key is a worthy innovation by @ikcelaks, "a key that dynamically adjusts its output based on the most recent previous keycode." ([https://github.com/Ikcelaks/keyboard_layouts](https://github.com/Ikcelaks/keyboard_layouts)). However, I'll avoid a magic key as this would make the layout advanced (for me).
 * No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; and/or this might be advanced (for me).
 * Consistent with the above otherwise trying to find the layouts that score best on **the metrics overall**. Noting if you optimize for one metric that can penalize one or more other metrics.
 
@@ -263,7 +263,7 @@ z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
 
 After installing keycraft (v0.5.0) I copied and modified the 16 layouts of interest.
 
-For example `data\layouts\graphite.klf` ...
+For example [data\layouts\graphite.klf](https://github.com/rbscholtus/keycraft/blob/main/data/layouts/graphite.klf) ...
 
 ```text
 # https://github.com/rdavison/graphite-layout
@@ -428,11 +428,11 @@ This metric is a companion to "POH", "Pinky Off Home" (although not calculated i
 
 ### Elimination round 1 - Qwerty
 
-@ec0 wrote in [Regard for inrolly2, 2025-11-21 06:35](https://discord.com/channels/807843650717483049/1439184823615885332/1441150096350908446) (in response to my suggestion qwerty stats would be good to include in KLD)
+@ec0 wrote in [Regard for inrolly2, 2025-11-21 06:35](https://discord.com/channels/807843650717483049/1439184823615885332/1441150096350908446) (in response to my suggestion qwerty stats would be good to include in the KLD)
 
 > I don't see why the Qwerty stats matter. Still, if you want them I can look into that in another moment when I'm home ...
 
-(@ec0 your adding qwerty stats to KLD is no longer something I desire, given I have them here, from keycraft).
+(@ec0 your adding qwerty stats to the KLD is no longer something I desire, given I have them here, from keycraft).
 
 #### Qwerty is shit
 
@@ -545,7 +545,7 @@ We can next eliminate some layouts for ad hoc reasons. We'll start from the lowe
 
 @ec0 observes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.3.2. HM or HML + vowels > NRTS / RNTS](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0)
 
-> The drawback of these layouts is that there are a lot of SFBs concentrated on the left index (**SC, YS, WS, GS…**) leading to high movement on that finger.
+> The drawback of these layouts [including flame] is that there are a lot of SFBs concentrated on the left index (**SC, YS, WS, GS…**) leading to high movement on that finger.
 
 This can be explored with `keycraft analyse flame-cs-ns wave2-cs-ns ints-cs-ns sturdy-cs-ns`. An orange mark identifies a SFB concentrated on the index (left or right).
 
@@ -666,7 +666,7 @@ A slight advantage to **wave2-cs-ns**.
 
 #### Issue 2: the trigram "str"
 
-@novaph indicates ([AKL > Regard for inrolly2 > at 2025-11-15 21:47](https://discord.com/channels/807843650717483049/1439184823615885332/1439205146834767983)) they use sturdy and that
+@novachromatic indicates ([AKL > Regard for inrolly2 > at 2025-11-15 21:47](https://discord.com/channels/807843650717483049/1439184823615885332/1439205146834767983)) they use sturdy and that
 
 > it's very similar to wave2, main difference is that the `r` and `t` columns are swapped
 >
@@ -875,7 +875,7 @@ Less so with hyphen, `-`. That is, there aren't too many bigrams from above with
 So I'll define, for the main layer, "John Bentley symbols" as:
 
 * `.,` as mandatory and on the ring and middle fingers respectively (whether on the left or right hand); and
-* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these main layer "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
+* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for (should you wish to trial or use the Final result variants I've derived). I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these main layer "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
 
 ### Final result
 
@@ -994,18 +994,19 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
+You can track the latest variation of my ints-cs-jbs-swap-q main layer, in the context of my keyboard overall (with other layers) at: https://configure.zsa.io/voyager/layouts/amoNV/latest/0.
 
 ### Concluding thoughts
 
 Subject to feedback on things I may have missed, I'm satisfied my analysis has identified the right winners (and runner up) against the stipulated criteria: midish-to-lowish alternating, highish roll, and matching the other idiosyncrasies. Winners as worthy of trial.
 
-However, there's nothing bright line about these winners (nor runner up), that make them unequivocally above the pack of other layouts. It'd be very easy to:
+However, there's nothing bright line about these winners (nor runner up), that make them unequivocally above the pack of other layouts. It'd be very easy to ...
 
 * Change some of the keycraft layout data: with variant layouts, or by including a specific set of symbols in those layouts; and/or
 * Use a different keycraft weights file to produce a different ranking; and/or
 * Given the data I've produced, decide that a different set of metrics are more important.
 
-And so pick out a different set of layouts as winners.
+... and so pick out a different set of layouts as winners.
 
 It's not as if there exists a layout that scores best on all the metrics. At least in practice, if not as a logically necessary trade-off. For example, as we've seen, in practice you can't:
 
