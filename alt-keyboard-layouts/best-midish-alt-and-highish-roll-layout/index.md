@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-03 15:23 ...
+Under construction @ 2026-03-04 14:38 ...
 
 ## Table of contents
 
@@ -11,34 +11,34 @@ Under construction @ 2026-03-03 15:23 ...
 * [Criteria](#criteria)
 * [Context](#context)
 * [Analysis](#analysis)
-	* [Overview](#overview)
-	* [The candidate layouts](#the-candidate-layouts)
-	* [Ways of speaking](#ways-of-speaking)
-	* [Layout key](#layout-key)
-	* [Keycraft customisation](#keycraft-customisation)
-		* [Layout customisation](#layout-customisation)
-		* [Weights file customisation](#weights-file-customisation)
-		* [Corpus](#corpus)
-	* [The stats](#the-stats)
-	* [Reading the stats](#reading-the-stats)
-	* [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
-		* [Qwerty is shit](#qwerty-is-shit)
-		* [... but not all shit](#-but-not-all-shit)
-	* [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
-	* [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
-	* [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
-	* [Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts---flame-cs-ns-v-sturdy-cs-ns)
-	* [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
-		* [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
-		* [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
-		* [Issue 3: general metrics advantage](#issue-3-general-metrics-advantage)
-		* [Modifying the layouts](#modifying-the-layouts)
-	* [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
+  * [Overview](#overview)
+  * [The candidate layouts](#the-candidate-layouts)
+  * [Ways of speaking](#ways-of-speaking)
+  * [Layout key](#layout-key)
+  * [Keycraft customisation](#keycraft-customisation)
+    * [Layout customisation](#layout-customisation)
+    * [Weights file customisation](#weights-file-customisation)
+    * [Corpus](#corpus)
+  * [The stats](#the-stats)
+  * [Reading the stats](#reading-the-stats)
+  * [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
+    * [Qwerty is shit](#qwerty-is-shit)
+    * [... but not all shit](#-but-not-all-shit)
+  * [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
+  * [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+  * [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
+  * [Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts---flame-cs-ns-v-sturdy-cs-ns)
+  * [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
+    * [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
+    * [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
+    * [Issue 3: general metrics advantage](#issue-3-general-metrics-advantage)
+    * [Modifying the layouts](#modifying-the-layouts)
+  * [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
 * [Wrapping up](#wrapping-up)
-	* [Review](#review)
-	* [Symbols layer](#symbols-layer)
-	* [Final Result](#final-result)
-	* [Concluding thoughts](#concluding-thoughts)
+  * [Review](#review)
+  * [Symbols layer](#symbols-layer)
+  * [Final result](#final-result)
+  * [Concluding thoughts](#concluding-thoughts)
 
 ## Summary
 
@@ -877,7 +877,7 @@ So I'll define, for the main layer, "John Bentley symbols" as:
 * `.,` as mandatory and on the ring and middle fingers respectively (whether on the left or right hand); and
 * Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these main layer "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
 
-### Final Result
+### Final result
 
 <table style="text-align: left;">
   <caption>
@@ -994,6 +994,7 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
+
 ### Concluding thoughts
 
 Subject to feedback on things I may have missed, I'm satisfied my analysis has identified the right winners (and runner up) against the stipulated criteria: midish-to-lowish alternating, highish roll, and matching the other idiosyncrasies. Winners as worthy of trial.
@@ -1006,15 +1007,18 @@ However, there's nothing bright line about these winners (nor runner up), that m
 
 And so pick out a different set of layouts as winners.
 
-It's not as if there exists a layout that scores best on all the metrics. Because there can't be. In particular, you can't maximise alternation and maximise rolls (both 2RL and 3RL). That's one of the logically necessary trade-offs.
+It's not as if there exists a layout that scores best on all the metrics. At least in practice, if not as a logically necessary trade-off. For example, as we've seen, in practice you can't:
+
+* Maximise alternation and maximise rolls (both 2RL and 3RL); nor
+* Maximise rolls (both 2RL and 3RL) and minimise RED (Redirections total).
 
 Nevertheless I can't help but wonder if over time the community will come up with a few bright line winners because:
 
-* A consensus will emerge over what metrics are important. Or two or three distinct camps will emerge that prioritize sets of metrics over others, which will yield winning layouts for those camps e.g.
+* A consensus will emerge over the set of important metrics. Or two or three distinct camps will emerge that prioritize sets of metrics over others, which will yield winning layouts for those camps. For example:
 
-  * A lowish alt, highish roll camp (might yield **ints** as the winner);
-  * A highish alt, lowish roll camp (might yield **graphite** as the winner); and
-  * A camp favouring other metric sets like - lowish FSB (Full Scissor Bigram), highish 2RL (2 roll), lowish RED (Redirect), lowish FLD (Finger Load Deviation), lowish POH (Pinky Off Home) - (might yield **flame** as the winner).
+  * A lowish alt, highish roll camp (yielding **ints**, an ints variant, or another layout as the winner);
+  * A highish alt, lowish roll camp (yielding **graphite**, a graphite variant, or another layout as the winner); and
+  * A camp favouring other metric sets like - lowish FSB (Full Scissor Bigram), highish 2RL (2 roll), lowish RED (Redirect), lowish FLD (Finger Load Deviation), lowish POH (Pinky Off Home) - (yielding **flame**, a flame variant, or another layout as the winner).
 
   -- and/or --
 
