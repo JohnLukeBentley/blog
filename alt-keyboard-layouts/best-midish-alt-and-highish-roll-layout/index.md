@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-04 16:44 ...
+Under construction @ 2026-03-05 17:06 ...
 
 ## Table of contents
 
@@ -11,34 +11,34 @@ Under construction @ 2026-03-04 16:44 ...
 * [Criteria](#criteria)
 * [Context](#context)
 * [Analysis](#analysis)
-  * [Overview](#overview)
-  * [The candidate layouts](#the-candidate-layouts)
-  * [Ways of speaking](#ways-of-speaking)
-  * [Layout key](#layout-key)
-  * [Keycraft customisation](#keycraft-customisation)
-    * [Layout customisation](#layout-customisation)
-    * [Weights file customisation](#weights-file-customisation)
-    * [Corpus](#corpus)
-  * [The stats](#the-stats)
-  * [Reading the stats](#reading-the-stats)
-  * [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
-    * [Qwerty is shit](#qwerty-is-shit)
-    * [... but not all shit](#-but-not-all-shit)
-  * [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
-  * [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
-  * [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
-  * [Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts---flame-cs-ns-v-sturdy-cs-ns)
-  * [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
-    * [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
-    * [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
-    * [Issue 3: general metrics advantage](#issue-3-general-metrics-advantage)
-    * [Modifying the layouts](#modifying-the-layouts)
-  * [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
+	* [Overview](#overview)
+	* [The candidate layouts](#the-candidate-layouts)
+	* [Ways of speaking](#ways-of-speaking)
+	* [Layout key](#layout-key)
+	* [Keycraft customisation](#keycraft-customisation)
+		* [Layout customisation](#layout-customisation)
+		* [Weights file customisation](#weights-file-customisation)
+		* [Corpus](#corpus)
+	* [The stats](#the-stats)
+	* [Reading the stats](#reading-the-stats)
+	* [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
+		* [Qwerty is shit](#qwerty-is-shit)
+		* [... but not all shit](#-but-not-all-shit)
+	* [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
+	* [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+	* [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
+	* [Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts---flame-cs-ns-v-sturdy-cs-ns)
+	* [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
+		* [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
+		* [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
+		* [Issue 3: general metrics advantage](#issue-3-general-metrics-advantage)
+		* [Modifying the layouts](#modifying-the-layouts)
+	* [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
 * [Wrapping up](#wrapping-up)
-  * [Review](#review)
-  * [Symbols layer](#symbols-layer)
-  * [Final result](#final-result)
-  * [Concluding thoughts](#concluding-thoughts)
+	* [Review](#review)
+	* [Symbols layer](#symbols-layer)
+	* [Final result](#final-result)
+	* [Concluding thoughts](#concluding-thoughts)
 
 ## Summary
 
@@ -101,7 +101,9 @@ I'm fairly happy with that symbols layer although it is subject to further tweak
 
 For a table of the above layouts, and their derivation from "original" layouts, see my section "Wrapping up" > [Final result](#final-result).
 
-I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in no order): @novachromatic (nova), @ec0vid (ec0), @iSa, @zak.7 (yak renter) , @clickforvictory (NUMBER ONE AKLESBIAN) , @ikcelaks, @ironcollar, @bhulik, @despampanante and @duodeath.
+I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in no order): @novachromatic (nova), @ec0vid (ec0), @isa10a6er (iSa), @zak.7 (yak renter) , @clickforvictory (NUMBER ONE AKLESBIAN), @ikcelaks, @ironcollar, @bhulik, @despampanante and @duodeath
+
+Thoughts and feedback welcome on Discord at [todo]. On Discord I'm @john.bentley
 
 ## Intro
 
@@ -323,7 +325,7 @@ My custom weights file differences are more shooting from the hip rather than be
 
 Keycraft comes with three corpora. I use the default, "shai", corpus.
 
-@iSa tells us (in [AKL > Are there authoritative sources for the corpora: shai and akl? > 2026-02-02 17:06](https://discord.com/channels/807843650717483049/1467736504980869225/1467763160059482163))
+@isa10a6er tells us (in [AKL > Are there authoritative sources for the corpora: shai and akl? > 2026-02-02 17:06](https://discord.com/channels/807843650717483049/1467736504980869225/1467763160059482163))
 
 > Shai: The default most analysers use, very large sample size corpus generated by cleaning the internet basically.
 
@@ -408,10 +410,10 @@ I use **@ec0 levels** but **the values I use to define these are custom**. For e
 
 The metric **ICC** stands for "Index Centre Column". This is not, as of writing, a keycraft metric, but it is derived from the keycraft metrics as the sum of C5 and C6.
 
-Using, for example, `keycraft rank graphite-cs-ns --weights-file john.txt --metrics C5,C6` gives ...
+Using, for example, `keycraft rank graphite-cs-ns --metrics C5,C6` gives ...
 
 <a href="keycraft-rank-c5-c6.png">
-  <img src="keycraft-rank-c5-c6.png" alt="Keycraft rank C5 and C6" style="cursor: zoom-in; width:80%;" />
+  <img src="keycraft-rank-c5-c6.png" alt="Keycraft rank C5 and C6" style="cursor: zoom-in;" />
 </a>
 
 ... which is also reflected in `view` output. E.g. `keycraft view graphite-cs-ns` gives ...
@@ -420,7 +422,7 @@ Using, for example, `keycraft rank graphite-cs-ns --weights-file john.txt --metr
   <img src="keycraft-view-graphite-cs-ns.png" alt="Keycraft view graphite-cs-ns" style="cursor: zoom-in; width:60%;" />
 </a>
 
-... observe in the "Hand" block the centre column values 3.3 and 2.8.
+... observe in the "Hand" block the centre column values `3.3` and `2.8`.
 
 A layout that has a higher centre index column use, where the index has to stretch off its home column, is worse than layouts with lower centre index column use, all other things being equal.
 
@@ -537,7 +539,7 @@ That leaves us with plenty of other layouts with midish to lowish alternation, t
 
 We can next eliminate some layouts for ad hoc reasons. We'll start from the lower scoring layouts:
 
-**seht-drai-cs-ns**. It fails our criteria "Must have bottom row symbol slots on at least ring and middle fingers"; and it has highish FSB ("Full Scissor Bigram").
+**seht-drai-cs-ns**. It fails our criteria "[must] have bottom row symbol slots on at least ring and middle fingers"; and it has highish FSB ("Full Scissor Bigram").
 
 **rain-cs-ns-cmini**. It has highish HSB ("Half Scissor Bigram"), highish HSS ("Half Scissor Skipgram"). Arguably scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are overriding reasons. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD, POH - we'll boot out rain-cs-ns-cmini.
 
@@ -569,7 +571,7 @@ Moreover, flame-cs-ns scores better on several other metrics compared to, say wa
 
 So let's leave flame-cs-ns in contention for now.
 
-**sturde-cs-ns**. This is the best scoring layout. But it fails our criteria "Excluding thumb alpha layouts. To keep the thumb keys for other things like backspace, tab, enter, space". So we'll exclude it.
+**sturde-cs-ns**. This is the best scoring layout. But it fails our criteria "[excluding] thumb alpha layouts. To keep the thumb keys for other things like backspace, tab, enter, space". So we'll exclude it.
 
 This is particular because the Voyager, desirably in my view, has only 4 thumb keys to play with.
 
@@ -875,7 +877,7 @@ Less so with hyphen, `-`. That is, there aren't too many bigrams from above with
 So I'll define, for the main layer, "John Bentley symbols" as:
 
 * `.,` as mandatory and on the ring and middle fingers respectively (whether on the left or right hand); and
-* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for (should you wish to trial or use the Final result variants I've derived). I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these main layer "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
+* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for (should you wish to trial or use the "final result" variants I've derived). I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these main layer "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
 
 ### Final result
 
@@ -994,7 +996,7 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
-You can track the latest variation of my ints-cs-jbs-swap-q main layer, in the context of my keyboard overall (with other layers) at: https://configure.zsa.io/voyager/layouts/amoNV/latest/0.
+You can track the latest variation of my ints-cs-jbs-swap-q main layer, in the context of my keyboard overall (with other layers) at: [https://configure.zsa.io/voyager/layouts/amoNV/latest/0](https://configure.zsa.io/voyager/layouts/amoNV/latest/0)
 
 ### Concluding thoughts
 
