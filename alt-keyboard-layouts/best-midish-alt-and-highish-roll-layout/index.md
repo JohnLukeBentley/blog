@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-05 17:06 ...
+Under construction @ 2026-03-06 12:08 ...
 
 ## Table of contents
 
@@ -47,7 +47,7 @@ What are the best keyboard layouts that are midish-to-lowish alternating, highis
 I'm answering this on the basis of analysis largely using ...
 
 * @ironcollar's analyser [keycraft](https://github.com/rbscholtus/keycraft); and
-* Using some concepts and info from @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?usp=sharing) (KLD).
+* Using some concepts and info from @ec0vid's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?usp=sharing) (KLD).
 
 ... both excellent pieces of work.
 
@@ -78,7 +78,7 @@ z b k c v  m h , . ~
 There are three places where flame is defined which I'll refer to (for this section only) as: flame-keycraft, flame-cmini, and flame-kld. These essentially resolve to two variants:
 
 * [flame-keycraft](https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf) and [flame-cmini](https://discord.com/channels/807843650717483049/1063291226243207268/1473851644927279124) - cmini is a Alt Keyboard Layouts (AKL) analyser app for calling up an overview of stats in discord posts - are consistent with each other;
-* [flame-kld](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0) - flame as presented in KLD - differs from both in having `q` and `j` swapped. Presumably, flame-kld is an earlier version from which flame-keycraft/flame-cmini evolved. 
+* [flame-kld](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0) - flame as presented in the KLD - differs from both in having `q` and `j` swapped. Presumably, flame-kld is an earlier version from which flame-keycraft/flame-cmini evolved. 
 
 I'm using flame-keycraft as my "original" version from which I derive variants.
 
@@ -158,7 +158,7 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 
 * I'm a new alternative layout user.
 * I've learnt Graphite to about 20wpm on my ZSA Voyager.
-* I've read @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2ztid8v3jw2i) (KLD), a distillation of the wisdom of the *Alt Keyboard Layouts* (AKL) community.
+* I've read @ec0vid's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2ztid8v3jw2i) (KLD), a distillation of the wisdom of the *Alt Keyboard Layouts* (AKL) community.
 * I've skimmed [https://layouts.wiki/](https://layouts.wiki/). In particular, [https://layouts.wiki/guides/start/recommendations/](https://layouts.wiki/guides/start/recommendations/)
 * I had come to suspect I dislike highish alternation and like high rolls, especially 3rolls. Things that graphite lacks. That suspicion has been deepened from my analysis.
 
@@ -169,8 +169,8 @@ I'll repeat my situation as I mentioned it there (with a different emphasis and 
 "My analysis" here means:
 
 1. Taking a list of candidate layouts (see the next section), and variants, to evaluate. Largely those flagged by anyone in "Regard for inrolly2" as worthy. This came to 14 layouts (plus variants). In addition I keep around graphite and qwerty as reference layouts.
-2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft);
-3. Dumping data from keycraft into Excel and applying @ec0's ranking levels for each metric (more about that in the section below, [Reading the stats](#reading-the-stats)).
+2. My use of @ironcollar's excellent analyser [keycraft](https://github.com/rbscholtus/keycraft).
+3. Dumping data from keycraft into Excel and applying @ec0vid's ranking levels for each metric (more about that in the section below, [Reading the stats](#reading-the-stats)).
 4. Bringing to bear insights from the KLD; and
 5. Bringing to bear insights from AKL members in "Regard for inrolly2".
 
@@ -235,7 +235,7 @@ My abbreviations for layout naming:
 
 I don't commend any general uptake of these abbreviations. I stipulate them for this blog post.
 
-In the layout diagram, following conventions (more or less) from @ec0's [Keyboard layouts doc (3rd edition) > ... > Chapter 13: Layout subgroups](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.uljxgg1xetqe)) (KLD):
+In the layout diagram, following conventions (more or less) from @ec0vid's [Keyboard layouts doc (3rd edition) > ... > Ch 13.2 Layout stat table](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.uljxgg1xetqe#heading=h.rjxckyg9kkgq) (KLD):
 
 * The most frequent vowels are coloured <span style="color: rgb(18, 183, 18); font-weight: bold;">green and bolded</span>.
 * The most frequent consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>.
@@ -353,7 +353,7 @@ keycraft rank $LongList --weights-file john.txt --metrics extended --deltas grap
     style="cursor: zoom-in;" />
 </a>
 
-I then take the layout values and dump them into Excel in order to apply @ec0 Levels (the 9 English word rungs "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max"; having the 3 colour bands green, yellow, red).
+I then take the layout values and dump them into Excel in order to apply @ec0vid Levels (the 9 English word rungs "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max"; having the 3 colour bands green, yellow, red).
 
 <a href="keyboard-candidate-main-layouts-16Layouts.png">
   <img
@@ -389,14 +389,14 @@ Likewise, for now, I suggest ignore these background colours.
 
 And so note also in the keycraft `rank`  output graphite-cs-ns is used as the reference layout against which other layouts are scored, and the deltas calculated.
 
-In the end, rather than compare layout metrics with keycraft `rank`'s relative deltas I find it easier to use an **absolute metric score basis**. @ec0 levels gives us a way to do that...
+In the end, rather than compare layout metrics with keycraft `rank`'s relative deltas I find it easier to use an **absolute metric score basis**. @ec0vid levels gives us a way to do that...
 
-Looking at the Excel output when I refer to metric **value** I'll use either of what I'll call generically **@ec0 levels**, from KLD:
+Looking at the Excel output when I refer to metric **value** I'll use either of what I'll call generically **@ec0vid levels**, from KLD:
 
-* If using **@ec0's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a *very high* FSB"; or
-* Speak broadly to refer to one of **3 bands** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also might reflect @ec0's 3 colour bands: green, yellow, red (green being the most desirable for a metric).
+* If using **@ec0vid's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a *very high* FSB"; or
+* Speak broadly to refer to one of **3 bands** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also might reflect @ec0vid's 3 colour bands: green, yellow, red (green being the most desirable for a metric).
 
-I use **@ec0 levels** but **the values I use to define these are custom**. For each metric:
+I use **@ec0vid levels** but **the values I use to define these are custom**. For each metric:
 
 * I've taken the lowest and highest values for the 16 layouts, often excluding the outlier (often qwerty) as defining the min and max values; and
 * Occasionally I've gone beyond those min and max values as I did some analysis against the AKL corpus (which I won't show in this article as that corpus is ultimately irrelevant).
@@ -430,11 +430,11 @@ This metric is a companion to "POH", "Pinky Off Home" (although not calculated i
 
 ### Elimination round 1 - Qwerty
 
-@ec0 wrote in [Regard for inrolly2, 2025-11-21 06:35](https://discord.com/channels/807843650717483049/1439184823615885332/1441150096350908446) (in response to my suggestion qwerty stats would be good to include in the KLD)
+@ec0vid wrote in [Regard for inrolly2, 2025-11-21 06:35](https://discord.com/channels/807843650717483049/1439184823615885332/1441150096350908446) (in response to my suggestion qwerty stats would be good to include in the KLD)
 
 > I don't see why the Qwerty stats matter. Still, if you want them I can look into that in another moment when I'm home ...
 
-(@ec0 your adding qwerty stats to the KLD is no longer something I desire, given I have them here, from keycraft).
+(@ec0vid your adding qwerty stats to the KLD is no longer something I desire, given I have them here, from keycraft).
 
 #### Qwerty is shit
 
@@ -501,7 +501,7 @@ It's alleged - [https://layouts.wiki/guides/start/recommendations/ > Sturdy](htt
 
 > There is no consensus on whether alternation or rolls is [sic] better; it is mainly up to personal preference.
 
-And @ec0 elaborates in the [KLD > 8.3. Balancing alternation & rolling](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.6r1v629nms0d#heading=h.1s5jijwq7omr):
+And @ec0vid elaborates in the [KLD > 8.3. Balancing alternation & rolling](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.6r1v629nms0d#heading=h.1s5jijwq7omr):
 
 > Which to favor between rolling and alternation is subjective. It can be said that **alternation offers a more consistent typing experience, as it feels rhythmic and minimizes awkward sequences. Meanwhile, rolling has higher highs** (words that feel very smooth) **but lower lows** (long same hand sequences). [Emphasis original]
 
@@ -545,7 +545,7 @@ We can next eliminate some layouts for ad hoc reasons. We'll start from the lowe
 
 **flame-cs-ns**? This scores well. And many of the metrics have desirable values (see the metric cells with a green background). It scores highish 2RL, although lowish 3RL. We could endure the low 3RL given the very high 2RL. However, there's an issue that's not reflected in the metrics presented.
 
-@ec0 observes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.3.2. HM or HML + vowels > NRTS / RNTS](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0)
+@ec0vid observes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.3.2. HM or HML + vowels > NRTS / RNTS](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0)
 
 > The drawback of these layouts [including flame] is that there are a lot of SFBs concentrated on the left index (**SC, YS, WS, GS…**) leading to high movement on that finger.
 
@@ -618,7 +618,7 @@ It does very badly on other metrics ...
 * Max RED; and
 * Very High RED-WEAK (worse than qwerty).
 
-@ec0 notes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.1 Rolls & redirects](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.7hju1u63u30)
+@ec0vid notes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.1 Rolls & redirects](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.7hju1u63u30)
 
 > Generally, rolls are considered a comfortable hand pattern while redirects are seen as worse. So, **a desirable aspect would be having high rolls, yet low redirects.**
 >
