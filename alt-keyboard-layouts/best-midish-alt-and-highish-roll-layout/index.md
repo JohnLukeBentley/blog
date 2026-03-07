@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-07 13:09 ...
+Under construction @ 2026-03-08 10:35 ...
 
 ## Table of contents
 
@@ -60,7 +60,7 @@ In the layout diagrams, following keycraft conventions, `~` means no key, not th
 
 On my analysis, and using the criteria (yet to be detailed), the winning layouts, in to-trial order, are:
 
-**ints-cs-jbs-swap-q**. Based on [ints by Tanamr](https://github.com/samuelxyz/layouts#ints) (a "3rolls" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (q).
+**ints-cs-jbs-swap-q**. Based on [ints by Tanamr](https://github.com/samuelxyz/layouts#ints) (a "3rolls" layout), but [un-angle modded](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.p2vqfrawen1l#heading=h.6r4nhmoaip5k), colstag, John Bentley symbols, with a swap (q).
 
 ```text
 f o u m j  ~ g d p q
@@ -210,13 +210,13 @@ I've included graphite and qwerty to compare.
 
 ### The flame original version
 
-There are three places where flame is defined "originally": before my tweaks. I'll refer (in this section only) to these versions as: flame-keycraft, flame-cmini, and flame-kld.
+There are three places where flame is defined "originally": before my tweaks. I'll refer to these versions as: flame-keycraft, flame-cmini, and flame-kld.
 
 These essentially resolve to two variants:
 
-1. [flame-keycraft](https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf) and [flame-cmini](https://discord.com/channels/807843650717483049/1063291226243207268/1473851644927279124) - cmini is a Alt Keyboard Layouts (AKL) analyser app for calling up an overview of stats in discord posts - are consistent with each other;
+1. [flame-keycraft](https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf) and [flame-cmini](https://discord.com/channels/807843650717483049/1063291226243207268/1473851644927279124) - cmini is a Alt Keyboard Layouts (AKL) analyser app for calling up an overview of stats in discord posts - are consistent with each other. flame-cmini is essentially an unangle-modded (See [Keyboard layouts doc (3rd edition) >  ... > 2.4. Un-angle modding a layout](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.p2vqfrawen1l#heading=h.6r4nhmoaip5k)) and colstage version of flame-keycraft. 
 
-2. [flame-kld](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0) - flame as presented in the KLD - differs from (1) in having `q` and `j` swapped. Presumably, flame-kld is an earlier version from which flame-keycraft/flame-cmini evolved. 
+2. [flame-kld](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0) - flame as presented in the KLD - differs from (1) in having `q` and `j` swapped with each other. Presumably, flame-kld is an earlier version from which flame-keycraft/flame-cmini evolved. 
 
 I'm using flame-keycraft as my "original" version from which I derive variants.
 
@@ -408,8 +408,8 @@ Looking at the Excel output when I refer to metric **value** I'll use either of 
 
 I use **@ec0vid levels** but **the values I use to define these are custom**. For each metric:
 
-* I've taken the lowest and highest values for the 16 layouts, often excluding the outlier (often qwerty) as defining the min and max values; and
-* Occasionally I've gone beyond those min and max values as I did some analysis against the AKL corpus (which I won't show in this article as that corpus is ultimately irrelevant).
+* I've taken the lowest and highest values for the 16 layouts (the 14 base candidate layouts, excluding variants, plus graphite and qwerty), often excluding the outlier (often qwerty) as defining the min and max values; and
+* Occasionally I've gone beyond those min and max values as I did some analysis against the AKL corpus (which I won't show in this blog post as that corpus is ultimately irrelevant).
 
 <a href="metric-upper-and-lower-bounds.png">
   <img
@@ -551,9 +551,9 @@ That leaves us with plenty of other layouts with midish to lowish alternation, t
 
 We can next eliminate some layouts for ad hoc reasons. We'll start from the lower scoring layouts:
 
-**seht-drai-cs-ns**. It fails our criteria "[must] have bottom row symbol slots on at least ring and middle fingers"; and it has highish FSB ("Full Scissor Bigram").
+**seht-drai-cs-ns**. It fails our criteria "[must] have bottom row symbol slots on at least ring and middle fingers"; and it has highish FSB (Full Scissor Bigram).
 
-**rain-cs-ns-cmini**. It has highish HSB ("Half Scissor Bigram"), highish HSS ("Half Scissor Skipgram"). Arguably scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are overriding reasons. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD, POH - we'll boot out rain-cs-ns-cmini.
+**rain-cs-ns-cmini**. It has highish HSB (Half Scissor Bigram), highish HSS (Half Scissor Skipgram). Arguably scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are overriding reasons. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD, POH - we'll boot out rain-cs-ns-cmini.
 
 **flame-cs-ns**? This scores well. And many of the metrics have desirable values (see the metric cells with a green background). It scores highish 2RL, although lowish 3RL. We could endure the low 3RL given the very high 2RL. However, there's an issue that's not reflected in the metrics presented.
 
@@ -879,7 +879,7 @@ We can take the top 58 unigrams from `keycraft corpus --corpus shai.txt` (and pl
 
 ... and observe that the following symbols are the top 5 most frequent `.,-'"`. Those are therefore good candidates for the main layer.
 
-However, in my trials of interplay between the main layer and symbols layer I've found that putting single `'` and double `"` quotes on the symbols layers aids with the top bigrams for programming (I use a custom programming corpus which is not publicly available) ...
+However, in my trials of interplay between the main layer and symbols layer I've found that putting single `'` and double `"` quotes on the symbols layer aids with the top bigrams for programming (I use a custom programming corpus which is not publicly available) ...
 
 <a href="programming-corpus-bigrams-quotes-highlighted.png">
   <img
@@ -888,11 +888,11 @@ However, in my trials of interplay between the main layer and symbols layer I've
     style="cursor: zoom-in;" />
 </a>
 
-Less so with hyphen, `-`. That is, there aren't too many bigrams from above with a hyphen that compels one to put the hyphen on the symbols layer.  However, a hyphen *does* work well on the symbols layer, on the middle finger home button. So on the main layer I just "need" to position `.,`
+Less so with hyphen, `-`. That is, there aren't too many bigrams from above with a hyphen that compels one to put the hyphen on the symbols layer.  However, a hyphen *does* work well on the symbols layer, on the middle finger home button. So on the main layer I just "need" to position `.` and `,`
 
 So I'll define, for the main layer, "John Bentley symbols" as:
 
-* `.,` as mandatory and on the ring and middle fingers respectively (whether on the left or right hand); and
+* `.` and `,` as mandatory and on the ring and middle fingers respectively (whether on the left or right hand); and
 * Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for (should you wish to trial or use the "final result" variants I've derived). I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these main layer "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
 
 ### Final result
@@ -1013,6 +1013,18 @@ q x k g w  p h , . ~
   </tbody>
 </table>
 You can track the latest variation of my ints-cs-jbs-swap-q main layer, in the context of my keyboard overall (with other layers) at: [https://configure.zsa.io/voyager/layouts/amoNV/latest/0](https://configure.zsa.io/voyager/layouts/amoNV/latest/0)
+
+### Further research
+
+Next ...
+
+I intend to trial the layouts.
+
+I may (if I persist in the rabbit hole), or others may wish to (if they aren't already):
+
+* Give @ironcollar a hand with [keycraft improvements](https://github.com/rbscholtus/keycraft/issues) (possibly only minor improvements are needed given it is already in good general shape). 
+* Create a website or app that presents the Excel output I've shown dynamically - with layout class, layout name, layout author, layout diagram (with colouring key), @ec0vid levels (rung and band) - using keycraft as the engine.
+* Meditate further on, and develop a feeling for during my trial, which metrics are important. Is there a basic metric rule waiting to be divined?E.g."Minimize FSB (Full Scissor Bigram), Minimize FSS (Full Scissor Skipgram); have midish-to-lowish ALT (Alternation total) and highish 2RL (2-key Rolls total); verify SFB (Same Finger Bigram) and RLD (Row Load Deviation) aren't near stupid highish Qwerty Max levels: and the other metrics aren't significant".
 
 ### Concluding thoughts
 
