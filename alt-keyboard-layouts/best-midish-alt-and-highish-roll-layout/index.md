@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-07 13:05 ...
+Under construction @ 2026-03-07 13:09 ...
 
 ## Table of contents
 
@@ -76,7 +76,7 @@ r n t s y  q l a e i
 z b k c v  m h , . ~
 ```
 
-I'm using flame as found in keycraft as my "original" version from which I derive flame-cs-jbs-swap-j. There are differences in flame, compared to flame-keycraft, as presented in the KLD. 
+I'm using flame as found in keycraft (flame-keycraft) as my "original" version from which I derive flame-cs-jbs-swap-j. There are differences in flame-keycraft compared to flame-kld (keycraft as presented in the KLD). 
 
 The runner up, a backup to trial if the above don't click, is:
 
