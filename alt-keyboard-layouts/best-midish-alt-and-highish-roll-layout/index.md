@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-09 15:56 ...
+Under construction @ 2026-03-09 16:04 ...
 
 ## Table of contents
 
@@ -1012,7 +1012,7 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
-My full voyager keyboard layout, with a ints-cs-jbs-swap-q main layer, is @ https://configure.zsa.io/voyager/layouts/amoNV/7vyY6Y/0 (permanent link: the keyboard layout is fixed at the time of writing; even if I update the layout subsequently).
+My full voyager keyboard layout, with a ints-cs-jbs-swap-q main layer, is @ [https://configure.zsa.io/voyager/layouts/amoNV/7vyY6Y/0](https://configure.zsa.io/voyager/layouts/amoNV/7vyY6Y/0) (permanent link: the keyboard layout is fixed at the time of writing; even if I update the layout subsequently).
 
 You can track the latest variation of my ints voyager keyboard layout @ [https://configure.zsa.io/voyager/layouts/amoNV/latest/0](https://configure.zsa.io/voyager/layouts/amoNV/latest/0) (latest). But this version is experimental and subject to rapid change.
 
