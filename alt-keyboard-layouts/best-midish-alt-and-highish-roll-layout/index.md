@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-08 10:54 ...
+Under construction @ 2026-03-09 15:56 ...
 
 ## Table of contents
 
@@ -88,7 +88,7 @@ s r t c y  b n a e i
 q x k g w  p h , . ~
 ```
 
-I have chosen these layouts having mind they'll work with a symbols layer of mine - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (stable link), built for:
+I have chosen these layouts having mind they'll work with a symbols layer of mine - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (permanent link: the keyboard layout is fixed at the time of writing; even if I update the layout subsequently), built for:
 
 * General English - prose, essays, etc. - particularly for the 10 most frequent symbols after `.` and `,` (in frequency order): `-'")(:?!/;`; and
 * The following programming (or "markup", or "style", or "scripting") languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
@@ -850,7 +850,7 @@ And our shortlist of no symbol layouts in Excel is now ...
 
 ### Symbols layer
 
-I have a symbols layer - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (stable link). Here it is as an image (`~` is literal in the image, rather than meaning "no symbol" as it does in the layout diagrams elsewhere in this blog post):
+I have a symbols layer - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (permanent link: the keyboard layout is fixed at the time of writing; even if I update the layout subsequently). Here it is as an image (`~` is literal in the image, rather than meaning "no symbol" as it does in the layout diagrams elsewhere in this blog post):
 
 <a href="JohnBentleySymbolsLayerAt20250210.png">
   <img
@@ -1012,7 +1012,9 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
-You can track the latest variation of my ints-cs-jbs-swap-q main layer, in the context of my keyboard overall (with other layers) at: [https://configure.zsa.io/voyager/layouts/amoNV/latest/0](https://configure.zsa.io/voyager/layouts/amoNV/latest/0)
+My full voyager keyboard layout, with a ints-cs-jbs-swap-q main layer, is @ https://configure.zsa.io/voyager/layouts/amoNV/7vyY6Y/0 (permanent link: the keyboard layout is fixed at the time of writing; even if I update the layout subsequently).
+
+You can track the latest variation of my ints voyager keyboard layout @ [https://configure.zsa.io/voyager/layouts/amoNV/latest/0](https://configure.zsa.io/voyager/layouts/amoNV/latest/0) (latest). But this version is experimental and subject to rapid change.
 
 ### Further research
 
