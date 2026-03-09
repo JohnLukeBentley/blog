@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-09 16:04 ...
+Under construction @ 2026-03-09 17:09 ...
 
 ## Table of contents
 
@@ -214,7 +214,7 @@ There are three places where flame is defined "originally": before my tweaks. I'
 
 These essentially resolve to two variants:
 
-1. [flame-keycraft](https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf) and [flame-cmini](https://discord.com/channels/807843650717483049/1063291226243207268/1473851644927279124) - cmini is a Alt Keyboard Layouts (AKL) analyser app for calling up an overview of stats in discord posts - are consistent with each other. flame-cmini is essentially an unangle-modded (See [Keyboard layouts doc (3rd edition) >  ... > 2.4. Un-angle modding a layout](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.p2vqfrawen1l#heading=h.6r4nhmoaip5k)) and colstage version of flame-keycraft. 
+1. [flame-keycraft](https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf) and [flame-cmini](https://discord.com/channels/807843650717483049/1063291226243207268/1473851644927279124) - cmini is a Alt Keyboard Layouts (AKL) analyser app for calling up an overview of stats in discord posts - are consistent with each other. flame-cmini is essentially an unangle-modded (See [Keyboard layouts doc (3rd edition) >  ... > 2.4. Un-angle modding a layout](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.p2vqfrawen1l#heading=h.6r4nhmoaip5k)) and colstag version of flame-keycraft. 
 
 2. [flame-kld](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0) - flame as presented in the KLD - differs from (1) in having `q` and `j` swapped with each other. Presumably, flame-kld is an earlier version from which flame-keycraft/flame-cmini evolved. 
 
@@ -718,7 +718,7 @@ None of the above seem decisive, we let's look at the general metrics advantage 
     style="cursor: zoom-in;" />
 </a>
 
-wave2-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram), HSB (Half Scissor Bigram)
+wave2-cs-ns significantly beats flame-cs-ns on: SFB (Same Finger Bigram) and HSB (Half Scissor Bigram).
 
 flame-cs-ns significantly beats wave2-cs-ns on:
 
