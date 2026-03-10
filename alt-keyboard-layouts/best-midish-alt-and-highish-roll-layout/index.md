@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-09 17:09 ...
+Under construction @ 2026-03-10 17:29 ...
 
 ## Table of contents
 
@@ -80,7 +80,7 @@ I'm using flame as found in keycraft (flame-keycraft) as my "original" version f
 
 The runner up, a backup to trial if the above don't click, is:
 
-**wave2-cs-jbs-swap-z**. Based on [wave2 by ec0](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73) (a "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (z).
+**wave2-cs-jbs-swap-z**. Based on [wave2 by @ec0vid](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73) (a "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout), but un-angle modded, colstag, John Bentley symbols, with a swap (z).
 
 ```text
 v l d m z  ~ f o u j
@@ -982,7 +982,7 @@ z b k <span style="color: rgb(13, 130,  247); font-weight: bold;">c</span> v  m 
         3. wave2 (runner up)
       </th>
       <td>
-        <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73">wave2 by ec0 (anglemod)</a>
+        <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73">wave2 by ec0vid (anglemod)</a>
 <pre><samp>v l d m '  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
  x k g w q  p h . " ,
@@ -1012,6 +1012,7 @@ q x k g w  p h , . ~
     </tr>
   </tbody>
 </table>
+
 My full voyager keyboard layout, with a ints-cs-jbs-swap-q main layer, is @ [https://configure.zsa.io/voyager/layouts/amoNV/7vyY6Y/0](https://configure.zsa.io/voyager/layouts/amoNV/7vyY6Y/0) (permanent link: the keyboard layout is fixed at the time of writing; even if I update the layout subsequently).
 
 You can track the latest variation of my ints voyager keyboard layout @ [https://configure.zsa.io/voyager/layouts/amoNV/latest/0](https://configure.zsa.io/voyager/layouts/amoNV/latest/0) (latest). But this version is experimental and subject to rapid change.
