@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-10 17:29 ...
+Under construction @ 2026-03-10 17:41...
 
 ## Table of contents
 
@@ -39,6 +39,7 @@ Under construction @ 2026-03-10 17:29 ...
   * [Review](#review)
   * [Symbols layer](#symbols-layer)
   * [Final result](#final-result)
+  * [Further research](#further-research)
   * [Concluding thoughts](#concluding-thoughts)
 
 ## Summary
@@ -1028,6 +1029,7 @@ I may (if I persist in the rabbit hole), or others may wish to (if they aren't a
 * Give @ironcollar a hand with [keycraft improvements](https://github.com/rbscholtus/keycraft/issues) (possibly only minor improvements are needed given it is already in good general shape). 
 * Create a website or app that presents the Excel output I've shown dynamically - with layout class, layout name, layout author, layout diagram (with colouring key), @ec0vid levels (rung and band) - using keycraft as the engine.
 * Meditate further on, and develop a feeling for during my trial, which metrics are important. Is there a basic metric rule waiting to be divined? E.g."Minimize FSB (Full Scissor Bigram), Minimize FSS (Full Scissor Skipgram); have midish-to-lowish ALT (Alternation total) and highish 2RL (2-key Rolls total); verify SFB (Same Finger Bigram) and RLD (Row Load Deviation) aren't near stupid highish Qwerty Max levels: and the other metrics aren't significant".
+* Manifest the mediation on the ideal metrics in a keycraft weights file.
 
 ### Concluding thoughts
 
