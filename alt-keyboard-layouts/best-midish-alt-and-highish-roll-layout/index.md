@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-10 17:41...
+Under construction @ 2026-03-10 19:24 ...
 
 ## Table of contents
 
@@ -404,8 +404,8 @@ In the end, rather than compare layout metrics with keycraft `rank`'s relative d
 
 Looking at the Excel output when I refer to metric **value** I'll use either of what I'll call generically **@ec0vid levels**, from KLD:
 
-* If using **@ec0vid's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a *very high* FSB"; or
-* Speak broadly to refer to one of **3 bands** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also might reflect @ec0vid's 3 colour bands: green, yellow, red (green being the most desirable for a metric).
+* If using **@ec0vid's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a *very low* FSB"; or
+* Speak broadly to refer to one of **3 bands** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a lowish FSB". This also might reflect @ec0vid's 3 colour bands: green, yellow, red (green being the most desirable for a metric).
 
 I use **@ec0vid levels** but **the values I use to define these are custom**. For each metric:
 
@@ -591,7 +591,7 @@ This is particular because the Voyager, desirably in my view, has only 4 thumb k
 Nevertheless some readers, including those that are Voyager users, may wish to jump on this layout, given it is best scoring overall. That is, so long as they don't mind:
 
 * The thumb alpha (e);
-* Max LSB;
+* Max LSB (worse than qwerty);
 * Very High LSS; and
 * Max ICC
 
