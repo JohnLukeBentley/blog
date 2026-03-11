@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-10 19:24 ...
+Under construction @ 2026-03-11 17:24 ...
 
 ## Table of contents
 
