@@ -1,6 +1,6 @@
 # Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-03-11 17:24 ...
+First published 2026-03-13 13:55.
 
 ## Table of contents
 
@@ -100,7 +100,7 @@ For a table of the above layouts, and their derivation from "original" layouts, 
 
 I evaluated 14 candidate layouts, and variants of a few of those. Those candidate layouts largely came from suggestions made at [Alt Keyboard Layouts](https://discord.com/channels/807843650717483049/823046923523063818) (AKL, a Discord Server) > questions > [Regard for inrolly2](https://discord.com/channels/807843650717483049/1439184823615885332/1439184823615885332)  with feedback from the following (in no order): @novachromatic (nova), @ec0vid (ec0), @isa10a6er (iSa), @zak.7 (yak renter) , @clickforvictory (NUMBER ONE AKLESBIAN), @ikcelaks, @ironcollar, @bhulik, @despampanante and @duodeath
 
-Thoughts and feedback welcome on Discord at [todo]. On Discord I'm @john.bentley
+Thoughts and feedback welcome on Discord at [Alt Keyboard Layouts > labs > #analysis > Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other ...](https://discord.com/channels/807843650717483049/1481847578164203681/1481847581733556347). On Discord I'm @john.bentley
 
 ## Intro
 
